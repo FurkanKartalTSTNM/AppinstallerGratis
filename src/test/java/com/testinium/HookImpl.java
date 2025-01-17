@@ -34,7 +34,7 @@ public class HookImpl {
     protected static AppiumDriver<MobileElement> appiumDriver;
     static EventFiringWebDriver eventDriver;
     protected static FluentWait<AppiumDriver<MobileElement>> appiumFluentWait;
-    protected boolean localAndroid=true;
+    protected boolean localAndroid=false;
     public static boolean isDeviceAnd=true;
     protected static Selector selector ;
 
