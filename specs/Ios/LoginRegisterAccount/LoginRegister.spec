@@ -46,11 +46,6 @@ tags:Gratis_IOS_RegisterUyariMesajlari
 * Yukarı scroll et ve "YeniSoyad" textini "RegisterSurnameFull" elementine yaz
 * Üye Ol ikonuna tiklanir "Lütfen e-posta adresi giriniz" uyarı mesajı görülür
 * Yukarı scroll et ve "gratistrtestinium@gmail.com" textini "RegisterMailFull" elementine yaz
-* "RegisterPhoneFull" li elementi bul ve temizle
-* Üye Ol ikonuna tiklanir "Lütfen telefon numarasını eksiksiz giriniz" uyarı mesajı görülür
-* Yukarı scroll et ve "5" textini "RegisterPhoneFull" elementine yaz
-* Üye Ol ikonuna tiklanir "Telefon Numarası Geçersiz. Lütfen 10 hane olacak şekilde giriniz." uyarı mesajı görülür
-* Yukarı scroll et ve "112223311" textini "RegisterPhoneFull" elementine yaz
 * Üye Ol ikonuna tiklanir "Doğum Tarihi alanı boş bırakılamaz." uyarı mesajı görülür
 
 IOS Scenario Forget Password

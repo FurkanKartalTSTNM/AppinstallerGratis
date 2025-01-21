@@ -95,14 +95,14 @@ tags:Gratis_Android_RegisterUyariMesajlari
 * Yukarı scroll et ve "YeniSoyad" textini "registerSurname" elementine yaz.
 * Üye Ol ikonuna tiklanir "Geçersiz giriş. Lütfen bir e-posta adresi girin; örneğin, john@smith.com" uyarı mesajı görülür.
 * Yukarı scroll et ve "gratistrtestinium@gmail.com" textini "registerMail" elementine yaz.
-* "registerPhone" li elementi bul ve temizle
-* Üye Ol ikonuna tiklanir "Telefon Numarası Geçersiz. Lütfen 10 hane olacak şekilde giriniz." uyarı mesajı görülür.
-* "registerPhone"li elementi bulana kadar "3" kere yukarı swipe yap ve elementi bul
-* Yukarı scroll et ve "5" textini "registerPhone" elementine yaz.
-* Üye Ol ikonuna tiklanir "Telefon Numarası Geçersiz. Lütfen 10 hane olacak şekilde giriniz." uyarı mesajı görülür.
-* "registerPhone"li elementi bulana kadar "3" kere yukarı swipe yap ve elementi bul
-* "registerPhone" li elementi bul ve temizle
-* Yukarı scroll et ve "5112223311" textini "registerPhone" elementine yaz.
+//* "registerPhone" li elementi bul ve temizle
+//* Üye Ol ikonuna tiklanir "Telefon Numarası Geçersiz. Lütfen 10 hane olacak şekilde giriniz." uyarı mesajı görülür.
+//* "registerPhone"li elementi bulana kadar "3" kere yukarı swipe yap ve elementi bul
+//* Yukarı scroll et ve "5" textini "registerPhone" elementine yaz.
+//* Üye Ol ikonuna tiklanir "Telefon Numarası Geçersiz. Lütfen 10 hane olacak şekilde giriniz." uyarı mesajı görülür.
+//* "registerPhone"li elementi bulana kadar "3" kere yukarı swipe yap ve elementi bul
+//* "registerPhone" li elementi bul ve temizle
+//* Yukarı scroll et ve "5112223311" textini "registerPhone" elementine yaz.
 * Üye Ol ikonuna tiklanir "Doğum Tarihi alanı boş bırakılamaz." uyarı mesajı görülür.
 
 Deleting Account

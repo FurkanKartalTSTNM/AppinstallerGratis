@@ -857,6 +857,12 @@ public class StepImpl extends HookImpl {
         StoreHelper.INSTANCE.saveValue(saveKey, findElementByKey(key).getText());
         logger.info("["+StoreHelper.INSTANCE.getValue(saveKey)+"]" + " degeri ["+ saveKey + "] ismiyle hafizaya kaydedildi");
     }
+    @Step({"<key> name li elementi bul ve değerini <saveKey> olarak sakla",
+            "Find element by <key> and save name <saveKey>"})
+    public void saveNameByKey(String key, String saveKey) {
+        StoreHelper.INSTANCE.saveValue(saveKey, findElementByKey(key).getAttribute("name"));
+        logger.info("["+StoreHelper.INSTANCE.getValue(saveKey)+"]" + " degeri ["+ saveKey + "] ismiyle hafizaya kaydedildi");
+    }
 
     @Step({"<key> li promosyon elementini bul ve değerini <saveKey> olarak sakla",
             "Find element by <key> and save text <saveKey>"})

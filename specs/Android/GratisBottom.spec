@@ -30,8 +30,8 @@ tags:Gratis_Android_GratisCard
 * Uygulama baslatilir.
 * Yeni login sayfasina gecilir.
 * Yeni Non login durumda Gratis Kart sayfasi kontrol edilir.
-* Profil'e tiklanir profilim sayfasinin acildigi gorulur.
 * Gratis Kartim sayfasina gecilir.
+* Profil'e tiklanir profilim sayfasinin acildigi gorulur.
 * Login durumda Gratis Kart sayfasi kontrol edilir.
 
 Puanlarim
