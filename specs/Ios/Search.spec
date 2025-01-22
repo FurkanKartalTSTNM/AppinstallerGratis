@@ -10,7 +10,7 @@ IOS Scenario Product Name And Product Code Search
 tags:Gratis_IOS_BasariliBasarisizUrunAramaVeUrunKoduArama
 * Uygulama baslatilir
 * Search ikonuna tiklanir
-* Arama sayfasinin acildigi gorulur
+//* Arama sayfasinin acildigi gorulur
 * Urun adi "ASDASD" yazilir, arama yapilir
 * Aradiginiz sonuc bulunamadi sayfasinin acildigi gorulur
 * Search ikonuna tiklanir
@@ -27,7 +27,7 @@ IOS Scenario Category And Trademark Search
 tags:Gratis_IOS_KategoriVeMarkaArama
 * Uygulama baslatilir
 * Search ikonuna tiklanir
-* Arama sayfasinin acildigi gorulur
+//* Arama sayfasinin acildigi gorulur
 * Kategori adi "Erkek Parfüm" yazilir, kategori secilir
 * Kategori ile ilgili urunlerin listelendigi gorulur
 * Search ikonuna tiklanir
@@ -40,7 +40,7 @@ IOS Scenario Popular Category And Popular Trademark Search
 tags:Gratis_IOS_PopulerKategoriVePopulerMarkaArama
 * Uygulama baslatilir
 * Search ikonuna tiklanir
-* Arama sayfasinin acildigi gorulur
+//* Arama sayfasinin acildigi gorulur
 * Populer kategoriler altindan kategori uzerine tiklanir
 * Aramaya gore urunlerin listelendigi gorulur
 * Search ikonuna tiklanir

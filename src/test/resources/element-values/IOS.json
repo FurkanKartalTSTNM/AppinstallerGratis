@@ -1466,7 +1466,7 @@
     "key": "ElementListFour",
     "androidValue": "",
     "androidType": "",
-    "iosValue": "//XCUIElementTypeStaticText[@name='Mara']",
+    "iosValue": "//XCUIElementTypeStaticText[@name='Zaure']",
     "iosType": "xpath"
   },
   {

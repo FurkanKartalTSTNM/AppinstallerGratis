@@ -25,6 +25,7 @@
 * "3" saniye bekle
 * "PageToolbarTitle" elementi bulunana kadar en fazla "25" saniye kadar bekle
 * "1" kere aşağıya kaydır
+* "BirinciIndirimIos" li elementi bulana kadar swipe et
 * Elementin yüklenmesini bekle "BirinciIndirimIos"
 * Elementine tıkla "BirinciIndirimIos"
 * Elementin yüklenmesini bekle "ToolbarUrunler"
@@ -552,7 +553,7 @@
 * Elementin yüklenmesini bekle "geriBtn"
 * Elementine tıkla "geriBtn"
 * "3" saniye bekle
-* "LYKD" text degerine sahip elementin goruntulendigi kontrol edilir
+* "Golden Rose" text degerine sahip elementin goruntulendigi kontrol edilir
 * "2" saniye bekle
 * "FilterName" li ve değeri "Marka" e eşit olan elementli bulana kadar swipe et ve tıkla
 * Elementin yüklenmesini bekle "FilterOkayBtn"
