@@ -23,18 +23,18 @@
 * Elementin yüklenmesini bekle "geriBtn"
 * Elementine tıkla "geriBtn"
 * "2" saniye bekle
-* Elementin yüklenmesini bekle "ProductNameThree"
-* Elementine tıkla "ProductNameThree"
+//* Elementin yüklenmesini bekle "ProductNameThree"
+//* Elementine tıkla "ProductNameThree"
+//* "2" saniye bekle
+//* Elementin yüklenmesini bekle "geriBtn"
+//* Elementine tıkla "geriBtn"
 * "2" saniye bekle
-* Elementin yüklenmesini bekle "geriBtn"
-* Elementine tıkla "geriBtn"
-* "2" saniye bekle
-* "ProductName" elementinin hizasından soldan sağa "1" kere kaydır
-* Elementin yüklenmesini bekle "ProductNameOne"
-* Elementine tıkla "ProductNameOne"
-* "2" saniye bekle
-* Elementin yüklenmesini bekle "geriBtn"
-* Elementine tıkla "geriBtn"
+//* "ProductName" elementinin hizasından soldan sağa "1" kere kaydır
+//* Elementin yüklenmesini bekle "ProductNameOne"
+//* Elementine tıkla "ProductNameOne"
+//* "2" saniye bekle
+//* Elementin yüklenmesini bekle "geriBtn"
+//* Elementine tıkla "geriBtn"
 * "2" saniye bekle
 //* Elementin yüklenmesini bekle "ProductName"
 //* Elementine tıkla "ProductName"
