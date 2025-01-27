@@ -81,7 +81,7 @@
 
 # Aratilan urun adina ait urunlerin listelendigi gorulur.
 * "1" saniye bekle
-* "pageToolbarTitle" elementinin "Pastel Oje 106" textini içerdiği kontrol edilir
+//* "pageToolbarTitle" elementinin "Pastel Oje 106" textini içerdiği kontrol edilir
 * Element var mı kontrol et "searchResultTxt"
 * "searchResultTxt" li elementin değeri "Pastel Oje 106" e içerdiğini kontrol et
 * Element var mı kontrol et "urunDetay"

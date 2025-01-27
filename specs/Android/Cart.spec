@@ -110,7 +110,9 @@ tags:Gratis_Android_SepetteMaximumUrunEkleme
 * Listeleme alanından bir ürün sepete eklenir.
 * Sepete git'e tıklanır.
 * Sepet kasa arkasi popup'i varsa kapatilir.
+* "2" saniye bekle
 * Urun adedi arttirilir.
+* "2" saniye bekle
 * Urun adedi arttirilir.
 * Urun adedi arttirilir.
 * Urun adedi arttirilir.

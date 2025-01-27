@@ -122,7 +122,7 @@ Sub-Bars
 --------
 tags:Gratis_Android_UrunDetayAltBarlar
 * Uygulama baslatilir.
-* Urun kodu "10016061" yazilir, arama yapilir.
+* Urun kodu "10131344" yazilir, arama yapilir.
 * Alt bar alanları kontrol edilir.
 * Ürün bilgileri kontrol edilir.
 * Anahtar kelimelerden birine tıklanır.
@@ -133,7 +133,7 @@ tags:Gratis_Android_UrunDetayAltBarYorum
 * Uygulama baslatilir.
 * Search ikonuna tiklanir.
 * Arama sayfasinin acildigi gorulur.
-* Urun adi "10058755" yazilir, arama yapilir.
+* Urun adi "10856042" yazilir, arama yapilir.
 * Ürün detay yorumlar alanina gecilir.
 * Yeni yorum yap ikonu ile Gratis1 login olunur.
 * Yorum penceresi kapatilir ve anasayfaya gecilir.
