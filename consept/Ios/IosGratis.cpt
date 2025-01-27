@@ -210,8 +210,8 @@
 
 # Urun arama sayfasina gecilir onerilen arama yapilir
 * "sepetiKapatmaBtn" elementine sayacli tikla "urunDetaySayfasiSepeteEkleBtn" value degerini bekle
-* "kategorilerSearchBox" elementine sayacli tikla "searchBoxOnerilenArama" value degerini bekle
-* "searchBoxOnerilenArama" elementine sayacli tikla "urunListelemeIlkUrun" value degerini bekle
+* "kategorilerSearchBox" elementine sayacli tikla "SearchPopularSubCategories" value degerini bekle
+* "SearchPopularSubCategories" elementine sayacli tikla "urunListelemeIlkUrun" value degerini bekle
 * Elementine tıkla "geriBtn"
 * Wait "2" seconds
 * Elementine tıkla "geriBtn"

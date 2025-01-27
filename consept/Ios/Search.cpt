@@ -9,19 +9,19 @@
 * Elementine tıkla "DigerSearchBox"
 
 # Arama sayfasinin acildigi gorulur
-* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+* Elementin yüklenmesini bekle "SearchPopularSubCategories"
 //* Elementin yüklenmesini bekle "SearchBoxCloseBtn"
 
 # Urun adi <text> yazilir, arama yapilir
 * "SearchInput" elementi bulunana kadar en fazla "5" saniye kadar bekle
 * "SearchInput" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
 * "SearchInput" elementi bulunana kadar en fazla "30" saniye kadar bekle
-* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+* Elementin yüklenmesini bekle "SearchPopularSubCategories"
 * "5" saniye bekle
 * <text> textini "SearchInput" elemente yaz
 //* Elementin yüklenmesini bekle "SearchBoxCloseBtn"
 //* "KeyboardSearchIcon" elementi bulunana kadar en fazla "30" saniye kadar bekle
-//* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+//* Elementin yüklenmesini bekle "SearchPopularSubCategories"
 * "5" saniye bekle
 * iOS Enter tıkla
 
@@ -29,12 +29,12 @@
 * "SearchInput" elementi bulunana kadar en fazla "5" saniye kadar bekle
 * "SearchInput" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
 * "SearchInput" elementi bulunana kadar en fazla "30" saniye kadar bekle
-* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+* Elementin yüklenmesini bekle "SearchPopularSubCategories"
 * "5" saniye bekle
 * <text> textini "SearchInput" elemente yaz
 //* Elementin yüklenmesini bekle "SearchBoxCloseBtn"
 //* "KeyboardSearchIcon" elementi bulunana kadar en fazla "30" saniye kadar bekle
-//* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+//* Elementin yüklenmesini bekle "SearchPopularSubCategories"
 * "5" saniye bekle
 * iOS Enter tıkla
 
@@ -63,14 +63,14 @@
 * "SearchInput" elementi bulunana kadar en fazla "5" saniye kadar bekle
 * "SearchInput" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
 * "SearchInput" elementi bulunana kadar en fazla "30" saniye kadar bekle
-* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+* Elementin yüklenmesini bekle "SearchPopularSubCategories"
 * "5" saniye bekle
 * <text> textini "SearchInput" elemente yaz
 //* Elementin yüklenmesini bekle "SearchBoxCloseBtn"
 //* "KeyboardSearchIcon" elementi bulunana kadar en fazla "30" saniye kadar bekle
 * "5" saniye bekle
-//* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
-//* Elementine tıkla "searchBoxOnerilenArama"
+//* Elementin yüklenmesini bekle "SearchPopularSubCategories"
+//* Elementine tıkla "SearchPopularSubCategories"
 * <text> değerini sayfa üzerinde olup olmadığını kontrol et.
 * <text> text degerine sahip elemente tikla
 * "1" saniye bekle
@@ -87,14 +87,14 @@
 * "SearchInput" elementi bulunana kadar en fazla "5" saniye kadar bekle
 * "SearchInput" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
 * "SearchInput" elementi bulunana kadar en fazla "30" saniye kadar bekle
-* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
+* Elementin yüklenmesini bekle "SearchPopularSubCategories"
 * "5" saniye bekle
 * <text> textini "SearchInput" elemente yaz
 //* Elementin yüklenmesini bekle "SearchBoxCloseBtn"
 //* "KeyboardSearchIcon" elementi bulunana kadar en fazla "30" saniye kadar bekle
 * "5" saniye bekle
-//* Elementin yüklenmesini bekle "searchBoxOnerilenArama"
-//* Elementine tıkla "searchBoxOnerilenArama"
+//* Elementin yüklenmesini bekle "SearchPopularSubCategories"
+//* Elementine tıkla "SearchPopularSubCategories"
 * <text> değerini sayfa üzerinde olup olmadığını kontrol et.
 * <text> text degerine sahip elemente tikla
 * "1" saniye bekle

@@ -647,6 +647,7 @@
 * Elementine tıkla "PopupOkayBtnIos"
 
 # Yeni favori listesi olusturulur ve secilen urun favori eklenir
+* "2" saniye bekle
 * Elementin yüklenmesini bekle "AddListButton"
 * Elementine tıkla "AddListButton"
 * Elementin yüklenmesini bekle "AddListPopupTitle"
@@ -809,7 +810,7 @@
 * "FavListSpinner" li  elementin x ekseninde yukaridan %"1" deger, y ekseninde yukaridan %"1" deger kadar asagisina tikla
 * "1" saniye bekle
 * "70","90" oranlarından "70","70" oranlarına "1" kere swipe et
-* "1" saniye bekle
+* "5" saniye bekle
 * Elementin yüklenmesini bekle "PopupOkayBtnIos"
 * Elementine tıkla "PopupOkayBtnIos"
 * "FavBtn" li elementi bul ve varsa tıkla
@@ -882,7 +883,7 @@
 
 # Gratis Card baglama islemi yapilir
 * Non login Gratis Kartim sayfasina gecilir
-* "Gratis Kart’ınızı Henüz Bağlamadınız." text degerine sahip elementin goruntulendigi kontrol edilir
+* "Gratis Kartınızı Henüz Bağlamadınız." text degerine sahip elementin goruntulendigi kontrol edilir
 * Elementin yüklenmesini bekle "GratisCardConnectBtn"
 * Elementine tıkla "GratisCardConnectBtn"
 * "Gratis Kart Al,  İndirimlerden Faydalan!" text degerine sahip elementin goruntulendigi kontrol edilir
@@ -907,7 +908,7 @@
 
 # Profilim Gratis Card baglama islemi yapilir
 * Non login Gratis Kartim sayfasina gecilir
-* "Gratis Kart’ınızı Henüz Bağlamadınız." text degerine sahip elementin goruntulendigi kontrol edilir
+* "Gratis Kartınızı Henüz Bağlamadınız." text degerine sahip elementin goruntulendigi kontrol edilir
 * Elementin yüklenmesini bekle "GratisCardConnectBtn"
 * "Gratis Kart size ne gibi faydalar sağlar?" text degerine sahip elementin goruntulendigi kontrol edilir
 * "Gratis Mağazaları ve Online Alışveriş'te Size Özel İndirimler" text degerine sahip elementin goruntulendigi kontrol edilir
@@ -984,7 +985,7 @@
 * Elementin yüklenmesini bekle "GratisCardTitle"
 
 # Gratis Card baglama islemi uyarı mesajları görülür
-* "Gratis Kart’ınızı Henüz Bağlamadınız." text degerine sahip elementin goruntulendigi kontrol edilir
+* "Gratis Kartınızı Henüz Bağlamadınız." text degerine sahip elementin goruntulendigi kontrol edilir
 * Elementin yüklenmesini bekle "GratisCardConnectBtn"
 * Elementine tıkla "GratisCardConnectBtn"
 * "Gratis Kart Al,  İndirimlerden Faydalan!" text degerine sahip elementin goruntulendigi kontrol edilir
