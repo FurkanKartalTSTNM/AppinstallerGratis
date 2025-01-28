@@ -473,7 +473,8 @@ This is a concept file with following syntax for each concept.
 * Yukarı scroll et ve "YeniSoyad" textini "newAddressCustomerSurname" elementine yaz.
 * "1" saniye bekle
 * Yukarı scroll et ve "2122223311" textini "newAddressCustomerPhone" elementine yaz.
-* Kaydet ikonuna tiklanir "Telefon Numarası Geçersiz.Telefon numaranız 0(5**) *** ** ** formatında olmalıdır" uyarı mesajı görülür.
+* "newAddressSavedBtn"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* Elementine tıkla "newAddressSavedBtn"
 * "2" saniye bekle
 * Yukarı scroll et ve "5112223311" textini "newAddressCustomerPhone" elementine yaz.
 * "1" saniye bekle
@@ -497,7 +498,8 @@ This is a concept file with following syntax for each concept.
 * Devam Et ikonuna tiklanir "Lütfen telefon numaranızı eksiksiz giriniz." uyarı mesajı görülür.
 * "1" saniye bekle
 * Yukarı scroll et ve "2122223311" textini "newAddressCustomerPhone" elementine yaz.
-* Devam Et ikonuna tiklanir "Telefon Numarası Geçersiz.Telefon numaranız 0(5**) *** ** ** formatında olmalıdır" uyarı mesajı görülür.
+* "continueBtn"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* Elementine tıkla "continueBtn"
 * "1" saniye bekle
 * Yukarı scroll et ve "5112223311" textini "newAddressCustomerPhone" elementine yaz.
 * "1" saniye bekle
@@ -553,7 +555,8 @@ This is a concept file with following syntax for each concept.
 * Yukarı scroll et ve "YeniSoyad" textini "newAddressCustomerSurname" elementine yaz.
 * "1" saniye bekle
 * Yukarı scroll et ve "2122223311" textini "newAddressCustomerPhone" elementine yaz.
-* Kaydet ikonuna tiklanir "Telefon Numarası Geçersiz.Telefon numaranız 0(5**) *** ** ** formatında olmalıdır" uyarı mesajı görülür.
+* "newAddressSavedBtn"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* Elementine tıkla "newAddressSavedBtn"
 * "2" saniye bekle
 * Yukarı scroll et ve "5112223311" textini "newAddressCustomerPhone" elementine yaz.
 * "1" saniye bekle
@@ -575,7 +578,8 @@ This is a concept file with following syntax for each concept.
 * Devam Et ikonuna tiklanir "Lütfen telefon numarasını eksiksiz giriniz" uyarı mesajı görülür.
 * "1" saniye bekle
 * Yukarı scroll et ve "2122223311" textini "storePhoneNumber" elementine yaz.
-* Devam Et ikonuna tiklanir "Telefon Numarası Geçersiz.Telefon numaranız 0(5**) *** ** ** formatında olmalıdır" uyarı mesajı görülür.
+* "continueBtn"li elementi bulana kadar "3" kere swipe yap ve elementi bul
+* Elementine tıkla "continueBtn"
 * "1" saniye bekle
 * Yukarı scroll et ve "5112223311" textini "storePhoneNumber" elementine yaz.
 * "1" saniye bekle

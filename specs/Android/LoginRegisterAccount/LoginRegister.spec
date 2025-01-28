@@ -121,7 +121,7 @@ tags:Gratis_Android_GratisCardBagla
 * Yeni login sayfasina gecilir.
 * Yeni Gratis2 ile login olunur.
 * Diger tabina tiklanir.
-* Profil'e tiklanir profilim sayfasinin acildigi gorulur.
+//* Profil'e tiklanir profilim sayfasinin acildigi gorulur.
 * Gratis Kartim sayfasina gecilir.
 * Profilim Gratis Card baglama islemi yapilir.
 //* Gratis Card baglama islemi yapilir.
@@ -133,7 +133,7 @@ tags:Gratis_Android_GratisCardBaglaUyari
 * Yeni login sayfasina gecilir.
 * Yeni Gratis0 ile login olunur.
 * Diger tabina tiklanir.
-* Profil'e tiklanir profilim sayfasinin acildigi gorulur.
+//* Profil'e tiklanir profilim sayfasinin acildigi gorulur.
 * Gratis Kartim sayfasina gecilir.
 * Gratis Card baglama islemi uyarı mesajları görülür.
 

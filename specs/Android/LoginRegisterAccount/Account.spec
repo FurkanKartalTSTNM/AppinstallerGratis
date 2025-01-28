@@ -110,7 +110,7 @@ tags:Gratis_Android_FavorilerdeMaximumSepeteEkleme
 * Uygulama baslatilir.
 * Ana sayfa sepet ikonuna tiklanir.
 * Yeni sepet ikonu ile Gratis2 login olunur.
-* Bir ürün için sepet kontrol edilerek temizlenir.
+* Sepet kontrol edilerek temizlenir.
 * Kategoriler sayfasina gecilir.
 * "Makyaj" isimli kategori seçilir.
 * Alt kategorilerden biri "Dudak Makyajı", "Ruj" seçilir.

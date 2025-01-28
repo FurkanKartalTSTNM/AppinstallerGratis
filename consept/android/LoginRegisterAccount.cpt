@@ -76,7 +76,8 @@ This is a concept file with following syntax for each concept.
 
 # Kayıtlı Telefon ile register olunur ve uyarı mesajı gorulur.
 * "2" kere yukarı doğru kaydır
-* "yenimail@gmail.com" textini "registerMail" elemente yaz
+* "registerMail" li elementi bul, temizle ve "yenimail@gmail.com" değerini yaz
+//* "yenimail@gmail.com" textini "registerMail" elemente yaz
 * "registerButton"li elementi bulana kadar "2" kere swipe yap ve elementi bul
 * "registerButton" li elementi bul ve varsa tıkla
 * Element var mı kontrol et "registerPhoneErrorPopup"
@@ -578,7 +579,9 @@ This is a concept file with following syntax for each concept.
 * Elementine tıkla "favListSpinner"
 * Elementin yüklenmesini bekle "favListSpinner"
 * "1" saniye bekle
-* "favListSpinner" elementinin koordinatlarına x="0" y="310" degerlerini ekleyerek tıkla
+* "413","581" koordinatlarına tıkla
+//* "favListSpinner" elementinin koordinatlarına x="0" y="400" degerlerini ekleyerek tıkla
+* "2" saniye bekle
 * "favListSpinner" elementinin "yeni liste adı" textini içerdiği kontrol edilir
 //* "productDetailFromFavoriteList" li elementin text degeri hafizada "ürün adı" olarak saklanan text ile esit mi kontrol et
 
