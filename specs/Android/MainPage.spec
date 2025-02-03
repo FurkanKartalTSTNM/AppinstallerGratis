@@ -126,7 +126,7 @@ tags:Gratis_Android_EnSonGezdiklerimNonLoginSepetDevam
 
 Non-Login Visited Add To Cart And Go To Cart
 --------------------------------------------
-tags:Gratis_Android_EnSonGezdiklerimNonLoginSepeteGit
+tags:Gratis_Android_EnSonGezdiklerimNonLoginSepeteGitüüüüüüü------ıııııöööö
 * Uygulama baslatilir.
 * En Çok Satanlar ürünlerine tıklanır.
 * En Son Gezdiklerim alanına gidilir.
