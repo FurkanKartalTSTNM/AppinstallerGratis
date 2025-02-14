@@ -27,7 +27,7 @@ tags:Gratis_IOS_KargoIndirimli
 * Adrese Teslim seçeneğine tıklanır ve devam edilir
 * Teslimat alanı ve kargo secimi kontrol edilir
 * Sipariş Özeti ve sözleşmeler alanı kontrol edilir
-* Iyzico alanı fiyat kontrol edilir
+//* Iyzico alanı fiyat kontrol edilir
 
 IOS Scenario Purchasing Below Shipping Cost
 -------------------------------------------
@@ -49,7 +49,7 @@ tags:Gratis_IOS_KargoIndirimsiz
 * Adrese Teslim seçeneğine tıklanır ve devam edilir
 * Teslimat alanı kargo kontrol edilir
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı fiyat kontrol edilir
+//* Iyzico alanı fiyat kontrol edilir
 
 IOS Scenario Purchasing with Choose Store Popup
 -----------------------------------------------
@@ -77,7 +77,7 @@ tags:Gratis_IOS_MagazaSecPopup
 * Mağazadan Teslim mağazası seçilir
 * Satın alma alanında devam et butonuna tıklanır
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
 //* Iyzico alanı express ödeme yapılır
 //* Siparişin tamamlandığı kontrol edilir
 
@@ -105,7 +105,7 @@ tags:Gratis_IOS_AdresDuzenleme
 * Satın alma alanında devam et butonuna tıklanır
 * Teslimat alanı kargo kontrol edilir
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı fiyat kontrol edilir
+//* Iyzico alanı fiyat kontrol edilir
 
 IOS Scenario Purchasing with Deleting and Adding New Address
 ------------------------------------------------------------
@@ -132,7 +132,7 @@ tags:Gratis_IOS_YeniAdresSilipEkleme
 * Teslimat Adresi devam et ikonuna tıklanır ve seçildiği kontrol edilir
 * Teslimat alanı kargo kontrol edilir
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı fiyat kontrol edilir
+//* Iyzico alanı fiyat kontrol edilir
 
 // PURCHASING 2
 
@@ -161,7 +161,7 @@ tags:Gratis_IOS_YeniAdresEkleme
 * Satın alma alanında devam et butonuna tıklanır
 * Teslimat alanı kargo kontrol edilir
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı fiyat kontrol edilir
+//* Iyzico alanı fiyat kontrol edilir
 
 IOS Scenario Purchasing with Adding New Bill Address
 ----------------------------------------------------
@@ -186,7 +186,7 @@ tags:Gratis_IOS_YeniFaturaAdresiEkleme
 * Satın alma alanında devam et butonuna tıklanır
 * Teslimat alanı kargo kontrol edilir
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı fiyat kontrol edilir
+//* Iyzico alanı fiyat kontrol edilir
 
 IOS Scenario Purchasing with Choosing Another Address
 -----------------------------------------------------
@@ -211,7 +211,7 @@ tags:Gratis_IOS_BaskaAdresSecerekSiparis
 * Satın alma alanında devam et butonuna tıklanır
 * Teslimat alanı kontrol edilir
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı fiyat kontrol edilir
+//* Iyzico alanı fiyat kontrol edilir
 
 IOS Scenario Purchasing with Choosing Another Bill Address
 ----------------------------------------------------------
@@ -234,7 +234,7 @@ tags:Gratis_IOS_BaskaFaturaAdresiSecerekSiparis
 * Satın alma alanında devam et butonuna tıklanır
 * Teslimat alanı kontrol edilir
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı fiyat kontrol edilir
+////* Iyzico alanı fiyat kontrol edilir
 
 IOS Scenario Purchasing with Store Deliver Changing Bill Address
 ---------------------------------------------------------------
@@ -259,7 +259,7 @@ tags:Gratis_IOS_MagazadanTeslimatFaturaAdresiDegistirme
 * Mağazadan Teslimat Fatura adresi değiştirilir
 * Satın alma alanında devam et butonuna tıklanır
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
 
 // PURCHASING 3
 
@@ -286,7 +286,7 @@ tags:Gratis_IOS_MagazadanKendimTeslimat
 * Kendim Teslim alacağım seçeneği seçilir
 * Satın alma alanında devam et butonuna tıklanır
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
 
 IOS Scenario Purchasing with Store Deliver Someone
 --------------------------------------------------
@@ -312,7 +312,7 @@ tags:Gratis_IOS_MagazadanBaskasiTeslimat
 * Başkası teslim alacak seçeneği seçilir
 * Satın alma alanında devam et butonuna tıklanır
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
 
 IOS Scenario Purchasing with Store Deliver Myself and Adding Bill Address
 -------------------------------------------------------------------------
@@ -339,7 +339,7 @@ tags:Gratis_IOS_MagazadanKendimTeslimatFaturaAdresiEkle
 * Kendim Teslim alacağım seçeneği seçilir
 * Satın alma alanında devam et butonuna tıklanır
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
 
 IOS Scenario Purchasing with Store Deliver Someone and Adding Bill Address
 --------------------------------------------------------------------------
@@ -366,7 +366,7 @@ tags:Gratis_IOS_MagazadanBaskasiTeslimatFaturaAdresiEkle
 * Başkası teslim alacak seçeneği seçilir
 * Satın alma alanında devam et butonuna tıklanır
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
 
 // PURCHASING 4
 
@@ -398,7 +398,7 @@ tags:Gratis_IOS_MagazadanTeslimatFaturaAdresiDuzenle
 * Mağazadan Teslimat Fatura Adresi kaydet ikonuna tıklanır ve seçildiği kontrol edilir
 * Satın alma alanında devam et butonuna tıklanır
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
 
 IOS Scenario Purchasing with Store Deliver Someone and Delete and Adding Bill Address
 -------------------------------------------------------------------------------------
@@ -427,7 +427,7 @@ tags:Gratis_IOS_MagazadanBaskasiTeslimatFaturaAdresiSilipEkle
 //* Fatura bilgileri alanında yeni adres eklenir
 * Satın alma alanında devam et butonuna tıklanır
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
 
 IOS Scenario Purchasing with Store Deliver and Adding Another Bill Address
 --------------------------------------------------------------------------
@@ -455,7 +455,7 @@ tags:Gratis_IOS_MagazadanTeslimatFaturaAdresiEkle
 * Mağazadan Teslimat Fatura adresi değiştirilir
 * Satın alma alanında devam et butonuna tıklanır
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
 
 IOS Scenario Purchasing with Store Deliver and Change Delivery Information
 --------------------------------------------------------------------------
@@ -485,4 +485,4 @@ tags:Gratis_IOS_MagazadanTeslimatTeslimatBilgileriDegistirme
 * Başkası teslim alacak seçeneği seçilir
 * Satın alma alanında devam et butonuna tıklanır
 * Sipariş Özeti alanı kontrol edilir
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir

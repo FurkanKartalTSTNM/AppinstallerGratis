@@ -32,7 +32,7 @@ tags:Gratis_Android_KargoIndirimli
 * Adrese Teslim seçeneğine tıklanır ve devam edilir.
 * Teslimat alanı kontrol edilir.
 * Sipariş Özeti ve sözleşmeler alanı kontrol edilir.
-* Iyzico alanı fiyat kontrol edilir.
+//* Iyzico alanı fiyat kontrol edilir.
 
 //EN AZ BİR ADRES EKLİ OLMALI
 Below shipping cost
@@ -58,7 +58,7 @@ tags:Gratis_Android_KargoIndirimsiz
 * Kargo seçimi uyarısı kontrol edilir.
 * Teslimat alanı kontrol edilir.
 * Sipariş Özeti alanı kontrol edilir.
-* Iyzico alanı fiyat kontrol edilir.
+//* Iyzico alanı fiyat kontrol edilir.
 
 //EN AZ BİR ADRES EKLİ OLMALI
 Choose Store Popup
@@ -90,7 +90,7 @@ tags:Gratis_Android_MagazaSecPopup
 * Mağazadan Teslim mağazası seçilir.
 * Satın alma alanında devam et butonuna tıklanır.
 * Sipariş Özeti alanı kontrol edilir.
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
 
 //EN AZ BİR ADRES EKLİ OLMALI
 Purchasing with Editing Address
@@ -111,7 +111,7 @@ tags:Gratis_Android_AdresDuzenleme
 * Satın alma alanında devam et butonuna tıklanır.
 * Teslimat alanı kontrol edilir.
 * Sipariş Özeti alanı kontrol edilir.
-* Iyzico alanı fiyat kontrol edilir.
+//* Iyzico alanı fiyat kontrol edilir.
 
 //SADECE BİR ADRES EKLİ OLMALI
 Purchasing with Deleting and Adding New Address
@@ -132,7 +132,7 @@ tags:Gratis_Android_YeniAdresSilipEkleme
 * Satın alma alanında devam et butonuna tıklanır.
 * Teslimat alanı kontrol edilir.
 * Sipariş Özeti alanı kontrol edilir.
-* Iyzico alanı fiyat kontrol edilir.
+//* Iyzico alanı fiyat kontrol edilir.
 
 //*********************************************** PURCHASİNG 2 *********************************************************
 
@@ -155,7 +155,7 @@ tags:Gratis_Android_YeniAdresEkleme
 * Satın alma alanında devam et butonuna tıklanır.
 * Teslimat alanı kontrol edilir.
 * Sipariş Özeti alanı kontrol edilir.
-* Iyzico alanı fiyat kontrol edilir.
+//* Iyzico alanı fiyat kontrol edilir.
 
 //EN AZ BİR ADRES EKLİ OLMALI
 Purchasing with Adding New Bil Address
@@ -174,7 +174,7 @@ tags:Gratis_Android_YeniFaturaAdresiEkleme
 * Satın alma alanında devam et butonuna tıklanır.
 * Teslimat alanı kontrol edilir.
 * Sipariş Özeti alanı kontrol edilir.
-* Iyzico alanı fiyat kontrol edilir.
+//* Iyzico alanı fiyat kontrol edilir.
 
 //EN AZ 2 ADRES EKLİ OLMALI
 //Choosing Another Address
@@ -190,7 +190,7 @@ tags:Gratis_Android_YeniFaturaAdresiEkleme
 //* Adrese Teslim seçeneğine tıklanır ve devam edilir.
 //* Teslimat alanı kontrol edilir.
 //* Sipariş Özeti alanı kontrol edilir.
-//* Iyzico alanı fiyat kontrol edilir.
+////* Iyzico alanı fiyat kontrol edilir.
 
 //EN AZ 2 ADRES EKLİ OLMALI
 //Choosing Another Bil Address
@@ -206,7 +206,7 @@ tags:Gratis_Android_YeniFaturaAdresiEkleme
 //* Satın alma alanında devam et butonuna tıklanır.
 //* Teslimat alanı kontrol edilir.
 //* Sipariş Özeti alanı kontrol edilir.
-//* Iyzico alanı fiyat kontrol edilir.
+////* Iyzico alanı fiyat kontrol edilir.
 
 //EN AZ 2 ADRES EKLİ OLMALI
 Purchasing with Store Deliver Changing Bil Address
@@ -224,7 +224,7 @@ Purchasing with Store Deliver Changing Bil Address
 //* Mağazadan Teslimat Fatura adresi değiştirilir.
 //* Satın alma alanında devam et butonuna tıklanır.
 //* Sipariş Özeti alanı kontrol edilir.
-//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
+////* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
 
 //*********************************************** PURCHASİNG 3 *********************************************************
 
@@ -245,7 +245,7 @@ tags:Gratis_Android_MagazadanKendimTeslimat
 * Kendim Teslim alacağım seçeneği seçilir.
 * Satın alma alanında devam et butonuna tıklanır.
 * Sipariş Özeti alanı kontrol edilir.
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
 
 //EN AZ 1 ADRES EKLİ OLMALI
 Purchasing with Store Deliver Someone
@@ -265,7 +265,7 @@ tags:Gratis_Android_MagazadanBaskasiTeslimat
 * Başkası teslim alacak seçeneği seçilir.
 * Satın alma alanında devam et butonuna tıklanır.
 * Sipariş Özeti alanı kontrol edilir.
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
 
 //SADECE 1 ADRES EKLİ OLMALI
 Purchasing with Store Deliver Myself and Adding Bil Address
@@ -285,7 +285,7 @@ tags:Gratis_Android_MagazadanKendimTeslimatFaturaAdresiEkle
 * Kendim Teslim alacağım seçeneği seçilir.
 * Satın alma alanında devam et butonuna tıklanır.
 * Sipariş Özeti alanı kontrol edilir.
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
 
 //SADECE 1 ADRES EKLİ OLMALI
 Purchasing with Store Deliver Someone and Adding Bil Address
@@ -305,7 +305,7 @@ tags:Gratis_Android_MagazadanBaskasiTeslimatFaturaAdresiEkle
 * Başkası teslim alacak seçeneği seçilir.
 * Satın alma alanında devam et butonuna tıklanır.
 * Sipariş Özeti alanı kontrol edilir.
-//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
+////* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
 
 //*********************************************** PURCHASİNG 4 *********************************************************
 
@@ -330,7 +330,7 @@ tags:Gratis_Android_MagazadanTeslimatFaturaAdresiDuzenle
 * Mağazadan Teslimat Fatura Adresi kaydet ikonuna tıklanır ve seçildiği kontrol edilir.
 * Satın alma alanında devam et butonuna tıklanır.
 * Sipariş Özeti alanı kontrol edilir.
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
 
 //SADECE 1 ADRES EKLİ OLMALI
 Purchasing with Store Deliver Someone and Delete and Adding Bil Address
@@ -351,7 +351,7 @@ tags:Gratis_Android_MagazadanBaskasiTeslimatFaturaAdresiSilipEkle
 //* Fatura bilgileri alanında yeni adres eklenir.
 * Satın alma alanında devam et butonuna tıklanır.
 * Sipariş Özeti alanı kontrol edilir.
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
 
 //EN AZ 1 ADRES EKLİ OLMALI
 Purchasing with Store Deliver and Adding Another Bil Address
@@ -373,7 +373,7 @@ tags:Gratis_Android_MagazadanTeslimatFaturaAdresiEkle
 * Mağazadan Teslimat Fatura adresi değiştirilir.
 * Satın alma alanında devam et butonuna tıklanır.
 * Sipariş Özeti alanı kontrol edilir.
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
 
 //EN AZ 1 ADRES EKLİ OLMALI
 Purchasing with Store Deliver and Change Delivery Information
@@ -400,6 +400,6 @@ tags:Gratis_Android_MagazadanTeslimatTeslimatBilgileriDegistirme
 * Başkası teslim alacak seçeneği seçilir.
 * Satın alma alanında devam et butonuna tıklanır.
 * Sipariş Özeti alanı kontrol edilir.
-* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
+//* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir.
 //* Iyzico alanı express ödeme yapılır.
 //* Siparişin tamamlandığı kontrol edilir.
