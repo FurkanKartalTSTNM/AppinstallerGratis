@@ -12,7 +12,7 @@ This is a concept file with following syntax for each concept.
 //* Element var mı kontrol et "tabHeaderSlct"
 
 # En Çok Satanlar ürünleri swipe edilir.
-* "productName"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* "productName"li elementi bulana kadar "3" kere swipe yap ve elementi bul
 * Elementine tıkla "productName"
 * "2" saniye bekle
 * Element var mı kontrol et "productDetailTitle"
@@ -32,6 +32,7 @@ This is a concept file with following syntax for each concept.
 
 # En Çok Satanlar ürünlerine tıklanır.
 * "productName2"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "productName2" elementinin hizasından sağdan sola "3" kere kaydır
 * Elementin yüklenmesini bekle "productName2"
 * Elementine tıkla "productName2"
 * "2" saniye bekle
@@ -226,7 +227,8 @@ This is a concept file with following syntax for each concept.
 # Non-Login ana sayfadan bir urun sepete eklenir.
 * Elementin yüklenmesini bekle "kampanyaSec"
 * "1" kere aşağıya kaydır
-* "productAddButton"li elementi bulana kadar "2" kere swipe yap ve elementi bul
+* "productAddButton"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* "productAddButton" elementinin hizasından sağdan sola "2" kere kaydır
 * Elementine tıkla "productAddButton"
 
 # Alışverişe devam edilir.

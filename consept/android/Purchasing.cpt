@@ -7,6 +7,7 @@ This is a concept file with following syntax for each concept.
 # Ürünlerin ve toplam fiyatın kontrolü yapılır.
 //* "productCartName" li elementi bul ve değerini "urun1" olarak sakla
 //* "productSecondCartName" li elementi bul ve değerini "urun2" olarak sakla
+* Elementin yüklenmesini bekle "priceTwo"
 * "priceTwo" li elementli küsüratı bul ve değerini "ilkKüsür" olarak sakla
 * "secondPriceTwo" li elementli küsüratı bul ve değerini "ikinciKüsür" olarak sakla
 * "priceOne" li elementi bul ve değerini "fiyat1" olarak sakla
@@ -18,6 +19,7 @@ This is a concept file with following syntax for each concept.
 # Tek ürünün ve toplam fiyatın kontrolü yapılır.
 //* "productCartName" li elementi bul ve değerini "urun1" olarak sakla
 //* "productSecondCartName" li elementi bul ve değerini "urun2" olarak sakla
+* Elementin yüklenmesini bekle "priceTwo"
 * "priceTwo" li elementli küsüratı bul ve değerini "ilkKüsür" olarak sakla
 * "priceOne" li elementi bul ve değerini "fiyat1" olarak sakla
 * "continueBtn"li elementi bulana kadar "2" kere swipe yap ve elementi bul

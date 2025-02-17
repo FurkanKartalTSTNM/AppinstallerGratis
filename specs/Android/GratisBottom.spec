@@ -212,7 +212,7 @@ tags:Gratis_Android_ListedenMaximumSepeteEkleme
 * Bir ürün için sepet kontrol edilerek temizlenir.
 * Kategoriler sayfasina gecilir.
 * "Makyaj" isimli kategori seçilir.
-* Alt kategorilerden biri "Dudak Makyajı", "Ruj" seçilir.
+* Alt kategorilerden biri "Göz Makyajı", "Maskara" seçilir.
 * Listeleme alanından bir ürün sepete eklenir.
 * Alışverişe devam edilir.
 * Listeleme alanından bir ürün sepete eklenir.

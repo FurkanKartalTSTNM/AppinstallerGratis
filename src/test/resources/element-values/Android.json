@@ -1020,7 +1020,7 @@
   },
   {
     "key": "gratisBeautyPage",
-    "androidValue": "(//android.view.View[@content-desc='Alternate Text'])[1]/android.widget.Image",
+    "androidValue": "(//android.view.View[@content-desc='Ana Sayfa'])[1]/android.widget.Image",
     "androidType": "xpath"
   },
   {
@@ -1575,7 +1575,7 @@
   },
   {
     "key": "firstColor",
-    "androidValue": "(//*[@resource-id='com.gratis.android:id/item_color_root'])",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/item_color_root'])[1]",
     "androidType": "xpath"
   },
   {
@@ -1585,7 +1585,7 @@
   },
   {
     "key": "alertTitle",
-    "androidValue": "//*[@resource-id='android:id/alertTitle']",
+    "androidValue": "//*[@resource-id='com.gratis.android:id/alertTitle']",
     "androidType": "xpath"
   },
   {
