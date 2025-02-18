@@ -43,7 +43,7 @@ tags:Gratis_Android_Puanlarim
 * Diger tabina tiklanir.
 * Profil'e tiklanir profilim sayfasinin acildigi gorulur.
 * Puanlarım sayfasına gecilir.
-* Aktif ve Geçmiş Puanlar kontrol edilir.
+* Puanlarım sayfası puan tanimli olmadigi textler kontrol edilir
 
 
 Diger
@@ -259,3 +259,33 @@ tags:Gratis_Android_HediyeKartiPromosyonKoduVeGratisPuanUyariKontrolu
 * Hediye karti alani  bos iken Uygula butonuna tıklanır ve bu alaninin bos olduguna dair uyari goruntulenir.
 * Gratis Puan kullanacagim ekle alani acilir ve Gratis Puan kullanacagim alaninin bos geldigi goruntulenir.
 * Gratis Puan kullanacagim bos iken Uygula butonuna tıklanır ve bu alaninin bos olduguna dair uyari goruntulenir.
+
+
+Check for Staff Discount in Store
+----------------------------------------
+tags:Gratis_Android_PersonelIndirimiKontrolu
+* Uygulama baslatilir.
+* Ana sayfa sepet ikonuna tiklanir.
+* Yeni sepet ikonu ile Gratis2 login olunur.
+* Sepet kontrol edilerek temizlenir.
+* Ana sayfaya geçilir.
+* Anasayfa urun kodu "10039453" yazilir, arama yapilir.
+* Ürün detay sayfasinda urun sepete eklenir.
+* Sepete git'e tıklanır.
+* Sepet kasa arkasi popup'i varsa kapatilir.
+* Personel İndirimi alani kontrol edilir.
+
+Promo Code and Gift Card Negative
+----------------------------------------
+tags:Gratis_Android_HediyeKartiVePromosypnKoduNegatifUyari
+* Uygulama baslatilir.
+* Ana sayfa sepet ikonuna tiklanir.
+* Yeni sepet ikonu ile Gratis2 login olunur.
+* Sepet kontrol edilerek temizlenir.
+* Ana sayfaya geçilir.
+* Anasayfa urun kodu "10039453" yazilir, arama yapilir.
+* Ürün detay sayfasinda urun sepete eklenir.
+* Sepete git'e tıklanır.
+* Sepet kasa arkasi popup'i varsa kapatilir.
+* Promosyon Kodu alanina geçersiz kod yazılır ve uyarı kontrol edilir
+* Hediye karti alanina geçersiz kart numarası yazılır ve uyarı kontrol edilir

@@ -3374,20 +3374,6 @@
     "iosType": "xpath"
   },
   {
-    "key": "aktifPuanlarinizTab",
-    "androidValue": "//android.widget.LinearLayout[@content-desc=\"Aktif Puanlarınız\"]",
-    "androidType": "xpath",
-    "iosValue": "//XCUIElementTypeStaticText[@name=\"Aktif Puanlarınız\"]",
-    "iosType": "xpath"
-  },
-  {
-    "key": "gecmisPuanlarinizTab",
-    "androidValue": "//android.widget.LinearLayout[@content-desc=\"Geçmiş Puanlarınız\"]",
-    "androidType": "xpath",
-    "iosValue": "//XCUIElementTypeStaticText[@name=\"Geçmiş Puanlarınız\"]",
-    "iosType": "xpath"
-  },
-  {
     "key": "gratisPointAddBtn",
     "androidValue": "",
     "androidType": "",

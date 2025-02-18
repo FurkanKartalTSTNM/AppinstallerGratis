@@ -491,12 +491,16 @@ This is a concept file with following syntax for each concept.
 * Elementin yüklenmesini bekle "gratisPuanlarimBtn"
 * "gratisPuanlarimBtn" li element varsa tıkla
 
-# Aktif ve Geçmiş Puanlar kontrol edilir.
-* "Alışverişlerinizde Harcayabileceğiniz Gratis Puanınız" text degerine sahip elementin sayfada gorundugu kontrol edilir
-* "Aktif Puanlarınız" text degerine sahip elementin sayfada gorundugu kontrol edilir
-* "Geçmiş Puanlarınız" text degerine sahip elementin sayfada gorundugu kontrol edilir
-* Elementine tıkla "gecmisPuanlarinizTab"
-* Elementine tıkla "aktifPuanlarinizTab"
+# Puanlarım sayfası puan tanimli olmadigi textler kontrol edilir
+* "3" saniye bekle
+* "Alışverişlerinizde Harcayabileceğiniz " text degerine sahip elementin sayfada gorundugu kontrol edilir
+* "Gratis Puanı: " text degerine sahip elementin sayfada gorundugu kontrol edilir
+* "Kampanya Puanı: " text degerine sahip elementin sayfada gorundugu kontrol edilir
+* "Kazanılan puanlar kampanyaya özel parçalı olarak kullanılmaktadır." text degerine sahip elementin sayfada gorundugu kontrol edilir
+* "Puanınız bulunmamaktadır." text degerine sahip elementin sayfada gorundugu kontrol edilir
+* "Henüz hiç alışveriş yapmadığınız için gösterilecek puanınız bulunmamaktadır." text degerine sahip elementin sayfada gorundugu kontrol edilir
+* "Alışverişe Başla" text degerine sahip elementin sayfada gorundugu kontrol edilir
+* Elementine tıkla "gratisPointDateFilterDropdown"
 
 # Promosyon Kodu ekle alani acilir ve Promosyon Kodu ekle  alaninin bos geldigi goruntulenir.
 * "Promosyon Kodu Ekle" text degerine sahip elementin sayfada gorundugu kontrol edilir
@@ -533,6 +537,30 @@ This is a concept file with following syntax for each concept.
 * "Kullanılabilir puanınız bulunmamaktadır." text degerine sahip elementin sayfada gorundugu kontrol edilir
 * Değeri "TAMAM" e eşit olan elementi bul ve tıkla
 * Elementine tıkla "gratisGratisPointCloseBtn"
+
+# Personel İndirimi alani kontrol edilir.
+* "Personel İndirimimi Kullanmak İstiyorum" text degerine sahip elementin sayfada gorundugu kontrol edilir
+* Elementine tıkla "gratisStaffSaleButton"
+* "Ayda 5000 TL'ye kadar %20 indirim kullanabilirsiniz." text degerine sahip elementin sayfada gorundugu kontrol edilir
+* Değeri "Kullan" e eşit olan elementi bul ve tıkla
+* "3" saniye bekle
+* "Personel indiriminiz toplam tutara yansıtılmıştır." text degerine sahip elementin sayfada gorundugu kontrol edilir
+* Değeri "Kullanmaktan Vazgeç" e eşit olan elementi bul ve tıkla
+
+
+# Promosyon Kodu alanina geçersiz kod yazılır ve uyarı kontrol edilir
+* Elementine tıkla "gratisPromoCodeOpenBtn"
+* "23145352" textini "gratisPromoCode" elemente yaz
+* Değeri "Uygula" e eşit olan elementi bul ve tıkla
+* "Kupon Kodu geçersizdir." text degerine sahip elementin sayfada gorundugu kontrol edilir
+* Elementine tıkla "gratisPromoCodeCloseBtn"
+
+# Hediye karti alanina geçersiz kart numarası yazılır ve uyarı kontrol edilir
+* Elementine tıkla "gratisGiftCardOpenBtn"
+* "23145352" textini "gratisGiftCard" elemente yaz
+* Değeri "Uygula" e eşit olan elementi bul ve tıkla
+* "2" saniye bekle
+* "Hediye Kartı Geçersizdir." text degerine sahip elementin sayfada gorundugu kontrol edilir
 
 
 

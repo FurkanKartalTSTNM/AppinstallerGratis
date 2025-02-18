@@ -3130,7 +3130,14 @@ public class StepImpl extends HookImpl {
     public void closeKeyboard() {
         appiumDriver.hideKeyboard();
     }
-
+    @Step({"<key> li elementleri bul ve ekrana yazdır",
+            "Find elements by <key> and log"})
+    public void logElementsByIdWithContains(String key) {
+        List<MobileElement> elements = findElemenstByKey(key);
+        for (MobileElement element : elements) {
+            logger.info("Element Text: " + element.getText());
+        }
+    }
 }
 
 

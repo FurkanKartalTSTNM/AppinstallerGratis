@@ -2259,28 +2259,28 @@
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisPointDateFilterOptions",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat",
+    "androidType": "xpath"
+  },
+  {
+    "key": "gratisPointDateFilterDropdown",
+    "androidValue": "com.gratis.android:id/spnFilter",
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisStaffSaleButton",
+    "androidValue": "com.gratis.android:id/imgStaffDiscountOpen",
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisGiftCard",
+    "androidValue": "com.gratis.android:id/giftCardEdt",
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
-    "androidType": "id"
-  },
-  {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisPromoCode",
+    "androidValue": "com.gratis.android:id/promotionEdt",
     "androidType": "id"
   },
   {
