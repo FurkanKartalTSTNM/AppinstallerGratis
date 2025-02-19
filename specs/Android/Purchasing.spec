@@ -500,7 +500,7 @@ tags:Gratis_Android_GratisPuanVePersonelİndirimi
 * Indirim yapildigi kontrol edilir
 * "1" kere yukarı doğru kaydır
 * Gratis puan kullanılır
-* Gratis Puan kullanıldığı kontrol edilir
+* Gratis Puan ile Personel İndirimininin birlikte kullanıldığı kontrol edilir
 
 Campaign Control from Basket
 ----------------------------------------

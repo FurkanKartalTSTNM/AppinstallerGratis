@@ -579,17 +579,18 @@ This is a concept file with following syntax for each concept.
 * Elementine tıkla "gratisJoinCampaign"
 * Element var mı kontrol et "gratisCampaignProducts"
 * Elementine tıkla "gratisCampaignDetailsBack"
+* "3" saniye bekle
 
 * "6" kere aşağıya kaydır
-* Elementine tıkla "gratisOldCampaignTab"
-* Elementine tıkla "gratisAllCampaignTab"
-* Elementine tıkla "gratisActiveCampaignTab"
 
 
 # Kampanyaya katıl butonuna tıklanır.
-* "gratisJoinCampaign" li elementi bulana kadar swipe et
+* "gratisJoinCampaign"li elementi bulana kadar "7" kere yukarı swipe yap ve elementi bul
 * Element var mı kontrol et "gratisJoinCampaign"
 * Elementine tıkla "gratisJoinCampaign"
+* "2" saniye bekle
+* "gratisToastMessage" elementinin "Kampanyaya başarılı bir şekilde katıldınız." textini içerdiği kontrol edilir
+* Elementine tıkla "popupOkayButton"
 * "2" saniye bekle
 * "KAMPANYAYA KATILDINIZ" text degerine sahip elementin sayfada gorundugu kontrol edilir
 

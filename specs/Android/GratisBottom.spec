@@ -292,7 +292,7 @@ tags:Gratis_Android_HediyeKartiVePromosypnKoduNegatifUyari
 
 MyCampaign Control
 ----------------------------------------
-tags:Gratis_Android_KampanyalarımKontrol
+tags:Gratis_Android_KampanyalarimKontrol
 * Uygulama baslatilir.
 * Yeni login sayfasina gecilir.
 * Yeni Gratis2 ile login olunur.

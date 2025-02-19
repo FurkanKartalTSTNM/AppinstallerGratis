@@ -3273,6 +3273,35 @@ public class StepImpl extends HookImpl {
         assertEquals(expectedAmount,araToplamFiyatı,"Hesaplanan tutar beklenen tutara eşit değil!");
 
     }
+    @Step("<key> ana fiyat <keyKusur> kusurat al <keyAraToplam> ara toplam <keyAraToplamKusur> ile karsilastirs")
+    public void logElementsByIdWithContainsGratisPointStaffDiscount(String key,String keyKusur,String keyAraToplam,String keyAraToplamKusur) throws InterruptedException {
+
+        String anaMiktar = findElementByKey(key).getText();
+        String kusur = findElementByKey(keyKusur).getText().replace(",","");
+        String totalUrunFiyati = anaMiktar + "." + kusur;
+        double totalFiyat = Double.parseDouble(totalUrunFiyati);
+        logger.info("ürün fiyatı  : " +totalFiyat);
+
+        double gratisPuani =400d;
+//        String promosyon = findElementByKey(keyPromo).getText().replace("TL","").replace(".","");
+//        double promosyonTotalFiyat =Double.parseDouble(promosyon);
+//        logger.info("Promosyon Kazancı  : " +promosyonTotalFiyat);
+//
+
+        swipe(1);
+        String araToplam = findElementByKey(keyAraToplam).getText();
+        String araToplamKusur = findElementByKey(keyAraToplamKusur).getText().replace(",","");
+        String araToplamFiyat = araToplam + "." + araToplamKusur;
+        double araToplamFiyatı = Double.parseDouble(araToplamFiyat);
+        logger.info("Ara Toplam  : " +araToplamFiyatı);
+
+
+        double expectedAmount =totalFiyat-gratisPuani;
+        logger.info("beklenen miktar : " +expectedAmount);
+
+        assertEquals(expectedAmount,araToplamFiyatı,"Hesaplanan tutar beklenen tutara eşit değil!");
+
+    }
 }
 
 
