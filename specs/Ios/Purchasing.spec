@@ -486,3 +486,109 @@ tags:Gratis_IOS_MagazadanTeslimatTeslimatBilgileriDegistirme
 * Satın alma alanında devam et butonuna tıklanır
 * Sipariş Özeti alanı kontrol edilir
 //* Iyzico alanı mağazadan teslimat için fiyat kontrol edilir
+
+
+
+IOS Promo Code
+----------------------------------------
+tags:Gratis_IOS_PromosyonKoduUygulama
+* Uygulama baslatilir
+* Ana sayfa sepet ikonuna tiklanir
+* Yeni sepet ikonu ile Gratis0 login olunur
+* Sepet kontrol edilerek temizlenir
+* Ana Sayfa butonuna tiklanir
+* Urun adi "10039453" yazilir, arama yapilir
+* Ürün detay sayfasinda urun sepete eklenir
+* Sepete git'e tıklanır
+* Sepet kasa arkasi popup'i kapatilir
+* Promosyon Kodu alanina promosyon kodu yazılır ve kontrol edilir.
+//* Indirim yapildigi kontrol edilir
+
+IOS Staff Discount
+----------------------------------------
+tags:Gratis_IOS_PersonelIndirimi
+* Uygulama baslatilir
+* Ana sayfa sepet ikonuna tiklanir
+* Yeni sepet ikonu ile Gratis0 login olunur
+* Sepet kontrol edilerek temizlenir
+* Ana Sayfa butonuna tiklanir
+* Urun adi "10039453" yazilir, arama yapilir
+* Ürün detay sayfasinda urun sepete eklenir
+* Sepete git'e tıklanır
+* Sepet kasa arkasi popup'i kapatilir
+* Personel indirimi kullanılır.
+//* Indirim yapildigi kontrol edilir
+
+IOS Gift Cart
+----------------------------------------
+tags:Gratis_IOS_HediyeKarti
+* Uygulama baslatilir
+* Ana sayfa sepet ikonuna tiklanir
+* Yeni sepet ikonu ile Gratis0 login olunur
+* Sepet kontrol edilerek temizlenir
+* Ana Sayfa butonuna tiklanir
+* Urun adi "10039453" yazilir, arama yapilir
+* Ürün detay sayfasinda urun sepete eklenir
+* Sepete git'e tıklanır
+* Sepet kasa arkasi popup'i kapatilir
+* Hediye karti uygulanir.
+
+IOS Gratis Point
+----------------------------------------
+tags:Gratis_IOS_GratisPuan
+* Uygulama baslatilir
+* Ana sayfa sepet ikonuna tiklanir
+* Yeni sepet ikonu ile Gratis0 login olunur
+* Sepet kontrol edilerek temizlenir
+* Ana Sayfa butonuna tiklanir
+* Urun adi "10010289" yazilir, arama yapilir
+* Ürün detay sayfasinda urun sepete eklenir
+* Sepete git'e tıklanır
+* Sepet kasa arkasi popup'i kapatilir
+* Gratis puan kullanılır.
+
+
+IOS Gratis Point and Staff Discount
+----------------------------------------
+tags:Gratis_IOS_GratisPuanVePersonelİndirimi
+* Uygulama baslatilir
+* Ana sayfa sepet ikonuna tiklanir
+* Yeni sepet ikonu ile Gratis0 login olunur
+* Sepet kontrol edilerek temizlenir
+* Ana Sayfa butonuna tiklanir
+* Urun adi "10010289" yazilir, arama yapilir
+* Ürün detay sayfasinda urun sepete eklenir
+* Sepete git'e tıklanır
+* Sepet kasa arkasi popup'i kapatilir
+* Personel indirimi kullanılır.
+* Gratis puan kullanılır.
+
+IOS Campaign Control from Basket
+----------------------------------------
+tags:Gratis_IOS_SepetteKampanyaUyariKontrolü
+* Uygulama baslatilir
+* Ana sayfa sepet ikonuna tiklanir
+* Yeni sepet ikonu ile Gratis0 login olunur
+* Sepet kontrol edilerek temizlenir
+* Ana Sayfa butonuna tiklanir
+* Urun adi "10010289" yazilir, arama yapilir
+* Ürün detay sayfasinda urun sepete eklenir
+* Sepete git'e tıklanır
+* Sepet kasa arkasi popup'i kapatilir
+* Gratis puan kullanılır.
+* Satın alma aşamasına gidilir sepete geri dönülür ve uyarı kontrol edilir
+
+IOS Campaign Control from Category
+----------------------------------------
+tags:Gratis_IOS_KategoriKampanyaUyariKontrolü
+* Uygulama baslatilir
+* Ana sayfa sepet ikonuna tiklanir
+* Yeni sepet ikonu ile Gratis0 login olunur
+* Sepet kontrol edilerek temizlenir
+* Ana Sayfa butonuna tiklanir
+* Urun adi "10010289" yazilir, arama yapilir
+* Ürün detay sayfasinda urun sepete eklenir
+* Sepete git'e tıklanır
+* Sepet kasa arkasi popup'i kapatilir
+* Gratis puan kullanılır.
+* Kategorilere gidilir sepete geri dönülür ve uyarı kontrol edilir

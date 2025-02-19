@@ -1,6 +1,6 @@
 # Uygulama baslatilir
-* "uygulamaKullanirkenTakipIzinver" li element varsa tıkla
-* "uygulamaIzinver" li element varsa tıkla
+//* "uygulamaKullanirkenTakipIzinver" li element varsa tıkla
+//* "uygulamaIzinver" li element varsa tıkla
 
 
 * "1" saniye bekle
@@ -8,8 +8,8 @@
 //* "1" saniye bekle
 
 
-* "uygulamaIzinver" li element varsa tıkla
-* "uygulamaKullanirkenTakipIzinver" li element varsa tıkla
+//* "uygulamaIzinver" li element varsa tıkla
+//* "uygulamaKullanirkenTakipIzinver" li element varsa tıkla
 
 
 //* "uygulamaKullan" li element varsa tıkla

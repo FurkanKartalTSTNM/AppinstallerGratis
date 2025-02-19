@@ -3386,5 +3386,180 @@
     "androidType": "",
     "iosValue": "//XCUIElementTypeImage[@name=\"removeCircle\"]",
     "iosType": "xpath"
+  },
+  {
+    "key": "gratisStaffDiscountButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeImage[`name == \"addCircle\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "gratisStaffDiscountWarning",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Ayda 5000 TL'ye kadar %20 indirim kullanabilirsiniz.",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "gratisStaffDiscountUsedWarning",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Personel indiriminiz toplam tutara yansıtılmıştır.",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "gratisStaffDiscountUseButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Kullan\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "gratisStaffDiscountGiveUpToUseButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Kullanmaktan Vazgeç\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "gratisPromoCodeSendKeys",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`value == \"Promosyon Kodu\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "gratisGiftCardSendKeys",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeTextField[`value == \"Kart No\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "gratisUygulaButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Uygula\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "gratisIosCampainMenuButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[5]/XCUIElementTypeOther[1]/XCUIElementTypeOther",
+    "iosType": "xpath"
+  },
+  {
+    "key": "gratisIosCampaignDetailsButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"KAMPANYA DETAYLARI\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "gratisIosCampaignBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Kampanyalarım",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "gratisIosCampaignJoinButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"KAMPANYAYA KATIL\"`][1]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "gratisIosCampaignJoinedButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "KAMPANYAYA KATILDINIZ",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "gratisIosPromoCodeAmount",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "gratisIosPromotionCode",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[5]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText)[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "gratisIosPromotionCodeTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[5]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText)[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "gratisIosOdenecekTutarOne",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[5]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText)[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "gratisIosOdenecekTutarTwo",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[5]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText)[2]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "gratisIosGiftCardAmount",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText)[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "gratisIosGratisPointAmount",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "(//XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeOther[4]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText)[1]",
+    "iosType": "xpath"
+  },
+  {
+    "key": "gratisIosBuyButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"SATIN AL\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "gratisIosBasketBackButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "Sepet",
+    "iosType": "accessibilityId"
+  },
+  {
+    "key": "gratisIosToastMessage",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeApplication[@name=\"Gratis\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeAlert/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText",
+    "iosType": "xpath"
+  },
+  {
+    "key": "gratisIosToastMessageOKButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Tamam\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "gratisIosCategoryBasketButton",
+    "androidValue": "",
+    "androidType": "",
+    "iosValue": "//XCUIElementTypeNavigationBar[@name=\"Kategoriler\"]/XCUIElementTypeButton[3]",
+    "iosType": "xpath"
   }
 ]

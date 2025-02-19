@@ -3140,7 +3140,7 @@ public class StepImpl extends HookImpl {
     public void logElementsByIdWithContains(String key) {
         List<MobileElement> elements = findElemenstByKey(key);
         for (MobileElement element : elements) {
-            logger.info("Element Text: " + element.getText());
+            logger.info("Element Text: " + element.getAttribute("name"));
         }
     }
     @Step("<key> ana fiyat <keyKusur> kusurat al <keyPromo> promosyon fiyatı <keyPromoKusurat> promosyon küsüratı al <keyAraToplam> ara toplam <keyAraToplamKusur> ile karsilastir")

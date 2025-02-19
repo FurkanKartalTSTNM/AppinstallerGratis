@@ -654,3 +654,53 @@
 * "Kullanılabilir puanınız bulunmamaktadır." text degerine sahip elementin goruntulendigi kontrol edilir
 * Elementine tıkla "PopupOkayBtnIos"
 * Elementine tıkla "gratisPointCloseBtn"
+
+# Ana Sayfa butonuna tiklanir
+* "geriBtn" li element varsa tıkla yoksa devam et
+* Elementine tıkla "AnasayfaTab"
+* "geriBtn" li element varsa tıkla yoksa devam et
+* Elementine tıkla "AnasayfaTab"
+
+# Personel İndirimi alani kontrol edilir
+* İçeriği "Personel İndirimimi Kullanmak İstiyorum" value iceren text degerinin goruntulendigi kontrol edilir
+* Elementine tıkla "gratisStaffDiscountButton"
+* Element var mı kontrol et "gratisStaffDiscountWarning"
+* Elementine tıkla "gratisStaffDiscountUseButton"
+* "3" saniye bekle
+* Element var mı kontrol et "gratisStaffDiscountUsedWarning"
+* Elementine tıkla "gratisStaffDiscountGiveUpToUseButton"
+
+# Promosyon Kodu alanina geçersiz kod yazılır ve uyarı kontrol edilir.
+* Promosyon Kodu ekle alani acilir ve Promosyon Kodu ekle alaninin bos geldigi goruntulenir
+* "23145352" textini "gratisPromoCodeSendKeys" elemente yaz
+* Elementine tıkla "gratisUygulaButton"
+* "Kupon Kodu geçersizdir." text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementine tıkla "gratisPointCloseBtn"
+
+# Hediye karti  alanina geçersiz hediye karti numarasi yazılır ve uyarı kontrol edilir.
+* İçeriği "Hediye Kartım Var" e eşit olan elementli bul ve tıkla
+* "2314535212321" textini "gratisGiftCardSendKeys" elemente yaz
+* Elementine tıkla "gratisUygulaButton"
+* "Hediye Kartı Geçersizdir." text degerine sahip elementin goruntulendigi kontrol edilir
+* İçeriği "Hediye Kartım Var" e eşit olan elementli bul ve tıkla
+
+# Kampanyalarım menüsüne tıklanır
+* Element var mı kontrol et "gratisIosCampainMenuButton"
+* Elementine tıkla "gratisIosCampainMenuButton"
+
+
+# Kampanyalar kontrol edilir
+* Elementin yüklenmesini bekle "gratisIosCampaignDetailsButton"
+* Element var mı kontrol et "gratisIosCampaignDetailsButton"
+* Elementine tıkla "gratisIosCampaignDetailsButton"
+
+* Elementine tıkla "gratisIosCampaignBackButton"
+* "2" saniye bekle
+
+//* "7" kere aşağıya kaydır
+//* "gratisIosCampaignJoinButton"li elementi bulana kadar "7" kere yukarı swipe yap ve elementi bul
+//* Elementine tıkla "gratisIosCampaignJoinButton"
+//* "3" saniye bekle
+//* Element var mı kontrol et "gratisIosCampaignJoinedButton"
+//
+//* "6" kere aşağıya kaydır

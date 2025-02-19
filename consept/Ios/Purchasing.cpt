@@ -717,3 +717,51 @@
 * Elementin yüklenmesini bekle "StoreAddressDetail"
 * "StoreAddressDetail" li elementi bul, temizle ve "Test ortamı icin adres detay bilgisi No:1000000000" değerini yaz
 * Klavye kapatilir
+
+
+# Promosyon Kodu alanina promosyon kodu yazılır ve kontrol edilir.
+* Promosyon Kodu ekle alani acilir ve Promosyon Kodu ekle alaninin bos geldigi goruntulenir
+* "PromoCode" csv dosyasindan rastgele gelen promosypn kodunu "gratisPromoCodeSendKeys" elementine yaz
+* Elementine tıkla "gratisUygulaButton"
+* Element var mı kontrol et "gratisIosPromoCodeAmount"
+* "gratisIosPromoCodeAmount" li elementleri bul ve ekrana yazdır
+
+//* "SalePriceOne" ana fiyat "SalePriceTwo" kusurat al "gratisIosPromotionCode" promosyon fiyatı "gratisIosPromotionCodeTwo" promosyon küsüratı al "gratisIosOdenecekTutarOne" ara toplam "gratisIosOdenecekTutarTwo" ile karsilastir
+
+# Personel indirimi kullanılır.
+* "Personel İndirimimi Kullanmak İstiyorum" text degerine sahip elementin goruntulendigi kontrol edilir
+* Elementine tıkla "gratisStaffDiscountButton"
+* Element var mı kontrol et "gratisStaffDiscountWarning"
+* Elementine tıkla "gratisStaffDiscountUseButton"
+* Element var mı kontrol et "gratisStaffDiscountGiveUpToUseButton"
+
+# Hediye karti uygulanir.
+* İçeriği "Hediye Kartım Var" e eşit olan elementli bul ve tıkla
+* "GiftCode" csv dosyasindan rastgele gelen promosypn kodunu "gratisGiftCardSendKeys" elementine yaz
+* Elementine tıkla "gratisUygulaButton"
+* Element var mı kontrol et "gratisIosGiftCardAmount"
+* "gratisIosGiftCardAmount" li elementleri bul ve ekrana yazdır
+
+
+# Gratis puan kullanılır.
+* Gratis Puan Kullanacagim alani acilir ve Gratis Puan Kullanacagim alaninin bos geldigi goruntulenir
+* Elementine tıkla "gratisPointAddBtn"
+* Element var mı kontrol et "gratisIosGratisPointAmount"
+* "gratisIosGratisPointAmount" li elementleri bul ve ekrana yazdır
+
+# Satın alma aşamasına gidilir sepete geri dönülür ve uyarı kontrol edilir
+* "1" kere aşağıya kaydır
+* Elementine tıkla "gratisIosBuyButton"
+* Elementine tıkla "gratisIosBasketBackButton"
+//gratisIosToastMessage
+* İçeriği "Sepetiniz güncellendi. Lütfen promosyon kodu, hediye kartı ve Gratis puan alanlarını kontrol edin." value iceren text degerinin goruntulendigi kontrol edilir
+* Elementine tıkla "gratisIosToastMessageOKButton"
+
+# Kategorilere gidilir sepete geri dönülür ve uyarı kontrol edilir
+* "2" saniye bekle
+* Elementine tıkla "kategorilerSekmesi"
+* Elementine tıkla "gratisIosBasketBackButton"
+* Elementine tıkla "gratisIosCategoryBasketButton"
+//gratisIosToastMessage
+* İçeriği "Sepetiniz güncellendi. Lütfen promosyon kodu, hediye kartı ve Gratis puan alanlarını kontrol edin." value iceren text degerinin goruntulendigi kontrol edilir
+* Elementine tıkla "gratisIosToastMessageOKButton"

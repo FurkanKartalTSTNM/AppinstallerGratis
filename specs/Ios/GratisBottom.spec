@@ -348,4 +348,45 @@ tags:Gratis_IOS_HediyeKartiPromosyonKoduVeGratisPuanUyariKontrolu
 * Gratis Puan Kullanacagim alani acilir ve Gratis Puan Kullanacagim alaninin bos geldigi goruntulenir
 * Gratis Puan Kullanacagim bos iken Uygula butonuna tıklanır ve bu alaninin bos olduguna dair uyari goruntulenir
 
+IOS Check for Staff Discount in Store
+----------------------------------------
+tags:Gratis_IOS_PersonelIndirimiKontrolu
+
+* Uygulama baslatilir
+* Ana sayfa sepet ikonuna tiklanir
+* Yeni sepet ikonu ile Gratis0 login olunur
+* Sepet kontrol edilerek temizlenir
+* Ana Sayfa butonuna tiklanir
+* Urun adi "10039453" yazilir, arama yapilir
+* Ürün detay sayfasinda urun sepete eklenir
+* Sepete git'e tıklanır
+* Sepet kasa arkasi popup'i kapatilir
+* Personel İndirimi alani kontrol edilir
+
+IOS Gift Card and Promo Code Negative Warning
+----------------------------------------
+tags:Gratis_IOS_HediyeKartiVePromosypnKoduNegatifUyari
+
+* Uygulama baslatilir
+* Ana sayfa sepet ikonuna tiklanir
+* Yeni sepet ikonu ile Gratis0 login olunur
+* Sepet kontrol edilerek temizlenir
+* Ana Sayfa butonuna tiklanir
+* Urun adi "10039453" yazilir, arama yapilir
+* Ürün detay sayfasinda urun sepete eklenir
+* Sepete git'e tıklanır
+* Sepet kasa arkasi popup'i kapatilir
+* Promosyon Kodu alanina geçersiz kod yazılır ve uyarı kontrol edilir.
+* Hediye karti  alanina geçersiz hediye karti numarasi yazılır ve uyarı kontrol edilir.
+
+IOS MyCampaign Control
+----------------------------------------
+tags:Gratis_IOS_KampanyalarimKontrol
+* Uygulama baslatilir
+* Ana sayfa sepet ikonuna tiklanir
+* Yeni sepet ikonu ile Gratis0 login olunur
+* Diger'e tiklanir diger sayfasinin acildigi gorulur
+* Profil'e tiklanir profilim sayfasinin acildigi gorulur
+* Kampanyalarım menüsüne tıklanır
+* Kampanyalar kontrol edilir
 
