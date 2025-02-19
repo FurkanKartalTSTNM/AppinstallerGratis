@@ -404,9 +404,9 @@ tags:Gratis_Android_MagazadanTeslimatTeslimatBilgileriDegistirme
 //* Iyzico alanı express ödeme yapılır.
 //* Siparişin tamamlandığı kontrol edilir.
 
-Check for
+Check for Promo Code ,Gift Card and Gratis Point Warning
 ----------------------------------------
-tags:Gratis_Android
+tags:Gratis_Android_PromoCodeGiftCardAndGratisPointWarning
 * Uygulama baslatilir.
 * Ana sayfa sepet ikonuna tiklanir.
 * Yeni sepet ikonu ile Gratis3 login olunur.
