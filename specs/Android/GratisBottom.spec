@@ -289,3 +289,16 @@ tags:Gratis_Android_HediyeKartiVePromosypnKoduNegatifUyari
 * Sepet kasa arkasi popup'i varsa kapatilir.
 * Promosyon Kodu alanina geçersiz kod yazılır ve uyarı kontrol edilir
 * Hediye karti alanina geçersiz kart numarası yazılır ve uyarı kontrol edilir
+
+MyCampaign Control
+----------------------------------------
+tags:Gratis_Android_KampanyalarımKontrol
+* Uygulama baslatilir.
+* Yeni login sayfasina gecilir.
+* Yeni Gratis2 ile login olunur.
+* Diger tabina tiklanir.
+* Profil'e tiklanir profilim sayfasinin acildigi gorulur.
+* Kampanyalarım menüsüne tıklanır.
+* Kampanyalar kontrol edilir.
+* Kampanyaya katıl butonuna tıklanır.
+

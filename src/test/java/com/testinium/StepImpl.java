@@ -78,6 +78,9 @@ public class StepImpl extends HookImpl {
     static List <String> CustomerAddressPostCode = new ArrayList<>();
     static List <String> province = new ArrayList<>();
     static List <String> county = new ArrayList<>();
+    static List <String> promoCode = new ArrayList<>();
+
+    static List <String> giftCard = new ArrayList<>();
 
 
     String accountUser;
@@ -108,6 +111,8 @@ public class StepImpl extends HookImpl {
     String customerAddressPostCode;
     String realProvince;
     String realCounty;
+    String promoCodes;
+    String giftCards;
 
 
 
@@ -1007,7 +1012,7 @@ public class StepImpl extends HookImpl {
 
     @Step({"<key> li elementi bulana kadar swipe et",
             "Find element by <key>  swipe "})
-    public void findByKeyWithSwipe(String key) {
+    public void findByKeyWifindByKeyWithSwipethSwipe(String key) {
         int maxRetryCount = 10;
         while (maxRetryCount > 0) {
             List<MobileElement> elements = findElemenstByKeyWithoutAssert(key);
@@ -3137,6 +3142,136 @@ public class StepImpl extends HookImpl {
         for (MobileElement element : elements) {
             logger.info("Element Text: " + element.getText());
         }
+    }
+    @Step("<key> ana fiyat <keyKusur> kusurat al <keyPromo> promosyon fiyatı <keyPromoKusurat> promosyon küsüratı al <keyAraToplam> ara toplam <keyAraToplamKusur> ile karsilastir")
+    public void logElementsByIdWithContainss(String key,String keyKusur,String keyPromo,String keyPromoKusurat,String keyAraToplam,String keyAraToplamKusur) throws InterruptedException {
+        String anaMiktar = findElementByKey(key).getText();
+        String kusur = findElementByKey(keyKusur).getText().replace(",","");
+        String totalUrunFiyati = anaMiktar + "." + kusur;
+        double totalFiyat = Double.parseDouble(totalUrunFiyati);
+        logger.info("ürün fiyatı  : " +totalFiyat);
+
+
+        String promosyon = findElementByKey(keyPromo).getText().replace("-","");
+        String promosyonKusurat = findElementByKey(keyPromoKusurat).getText().replace(",","");
+        String totalPromosyonFiyati = promosyon + "." + promosyonKusurat;
+        double promosyonTotalFiyat =Double.parseDouble(totalPromosyonFiyati);
+        logger.info("Promosyon Kazancı  : " +promosyonTotalFiyat);
+
+
+        swipe(1);
+        String araToplam = findElementByKey(keyAraToplam).getText();
+        String araToplamKusur = findElementByKey(keyAraToplamKusur).getText().replace(",","");
+        String araToplamFiyat = araToplam + "." + araToplamKusur;
+        double araToplamFiyatı = Double.parseDouble(araToplamFiyat);
+        logger.info("Ara Toplam  : " +araToplamFiyatı);
+
+
+        double expectedAmount =totalFiyat-promosyonTotalFiyat;
+        logger.info("beklenen miktar : " +expectedAmount);
+
+      assertEquals(expectedAmount,araToplamFiyatı,"Hesaplanan tutar beklenen tutara eşit değil!");
+
+    } @Step("<keyAraToplam> ara toplam <keyAraToplamKusur> sifira esit mi karsilastir")
+    public void logElementsByIdWithContainsZero(String keyAraToplam,String keyAraToplamKusur) throws InterruptedException {
+
+        swipe(1);
+        String araToplam = findElementByKey(keyAraToplam).getText();
+        String araToplamKusur = findElementByKey(keyAraToplamKusur).getText().replace(",","");
+        String araToplamFiyat = araToplam + "." + araToplamKusur;
+        double araToplamFiyatı = Double.parseDouble(araToplamFiyat);
+        logger.info("Ara Toplam  : " +araToplamFiyatı);
+
+        double expectedAmount=0.00;
+        logger.info("beklenen miktar : " +expectedAmount);
+
+      assertEquals(expectedAmount,araToplamFiyatı,"Hesaplanan tutar beklenen tutara eşit değil!");
+
+    }
+
+    @Step("<value> csv dosyasindan rastgele gelen promosypn kodunu <key> elementine yaz")
+    public void csvReaderPromo(String value,String key) {
+        try {
+            String line = "";
+            String splitBy = ",";
+
+            BufferedReader br = new BufferedReader(new FileReader("data/"+value+".csv"));
+            while ((line = br.readLine()) != null)
+            {
+                String[] keyValue = line.split(splitBy,2);
+                promoCode.add(keyValue[0]);
+            }
+
+            System.out.println("Maillere ait csv okundu");
+
+            int number = createRandomNumber(promoCode.size());
+
+            promoCodes = promoCode.get(number);
+            sendKeysByKey(key,promoCodes);
+
+
+            System.out.println("Kullanilacak Kullanici adi :" + promoCodes);
+
+        }catch (Exception e){
+            System.out.println("Csv dosyasi oluşturulurken hatayla karsilasildi");
+            System.out.println(promoCode);
+        }
+    } @Step("<value> csv dosyasindan rastgele gelen hediye kartı <key> elementine yaz")
+    public void csvReaderGiftCard(String value,String key) {
+        try {
+            String line = "";
+            String splitBy = ",";
+
+            BufferedReader br = new BufferedReader(new FileReader("data/"+value+".csv"));
+            while ((line = br.readLine()) != null)
+            {
+                String[] keyValue = line.split(splitBy,2);
+                giftCard.add(keyValue[0]);
+            }
+
+            System.out.println("Maillere ait csv okundu");
+
+            int number = createRandomNumber(giftCard.size());
+
+            giftCards = giftCard.get(number);
+            sendKeysByKey(key,giftCards);
+
+
+            System.out.println("Kullanilacak Kullanici adi :" + giftCards);
+
+        }catch (Exception e){
+            System.out.println("Csv dosyasi oluşturulurken hatayla karsilasildi");
+            System.out.println(giftCard);
+        }
+    }
+    @Step("<key> ana fiyat <keyKusur> kusurat al <keyAraToplam> ara toplam <keyAraToplamKusur> ile karsilastir")
+    public void logElementsByIdWithContainsGratisPoint(String key,String keyKusur,String keyAraToplam,String keyAraToplamKusur) throws InterruptedException {
+
+        String anaMiktar = findElementByKey(key).getText();
+        String kusur = findElementByKey(keyKusur).getText().replace(",","");
+        String totalUrunFiyati = anaMiktar + "." + kusur;
+        double totalFiyat = Double.parseDouble(totalUrunFiyati);
+        logger.info("ürün fiyatı  : " +totalFiyat);
+
+        double gratisPuani =200d;
+//        String promosyon = findElementByKey(keyPromo).getText().replace("TL","").replace(".","");
+//        double promosyonTotalFiyat =Double.parseDouble(promosyon);
+//        logger.info("Promosyon Kazancı  : " +promosyonTotalFiyat);
+//
+
+        swipe(1);
+        String araToplam = findElementByKey(keyAraToplam).getText();
+        String araToplamKusur = findElementByKey(keyAraToplamKusur).getText().replace(",","");
+        String araToplamFiyat = araToplam + "." + araToplamKusur;
+        double araToplamFiyatı = Double.parseDouble(araToplamFiyat);
+        logger.info("Ara Toplam  : " +araToplamFiyatı);
+
+
+        double expectedAmount =totalFiyat-gratisPuani;
+        logger.info("beklenen miktar : " +expectedAmount);
+
+        assertEquals(expectedAmount,araToplamFiyatı,"Hesaplanan tutar beklenen tutara eşit değil!");
+
     }
 }
 

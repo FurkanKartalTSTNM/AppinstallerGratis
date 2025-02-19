@@ -701,3 +701,60 @@ This is a concept file with following syntax for each concept.
 * "3" saniye bekle
 * Saklanan tek ürün fiyat değerlerinin "ilkKüsür", "fiyat1" saklanan toplam fiyat "odenecekToplam" ile eşit mi kontrol et
 * "2" saniye bekle
+
+# Promosyon Kodu alanina promosyon kodu yazılır
+* Elementine tıkla "gratisPromoCodeOpenBtn"
+* "PromoCode" csv dosyasindan rastgele gelen promosypn kodunu "gratisPromoCode" elementine yaz
+* Değeri "Uygula" e eşit olan elementi bul ve tıkla
+* Element var mı kontrol et "gratisPromotionPrice"
+
+# Hediye Kartı alanina hediye kartı numarası yazılır
+* Elementine tıkla "gratisGiftCardOpenBtn"
+* "GiftCode" csv dosyasindan rastgele gelen promosypn kodunu "gratisGiftCard" elementine yaz
+* Değeri "Uygula" e eşit olan elementi bul ve tıkla
+
+# Indirim yapildigi kontrol edilir
+* "salePriceOne" ana fiyat "salePriceTwo" kusurat al "promotionPriceOne" promosyon fiyatı "promotionPriceTwo" promosyon küsüratı al "odenecekTutarOne" ara toplam "odenecekTutarTwo" ile karsilastir
+* "4" saniye bekle
+
+# Personel indirimi kullanılır
+* "Personel İndirimimi Kullanmak İstiyorum" text degerine sahip elementin sayfada gorundugu kontrol edilir
+* Elementine tıkla "gratisStaffSaleButton"
+* "3" saniye bekle
+* Elementine tıkla "gratisStaffDiscountAddButton"
+* "3" saniye bekle
+
+# Hediye karti uygulanir
+* Elementine tıkla "gratisGiftCardOpenBtn"
+* "GiftCode" csv dosyasindan rastgele gelen promosypn kodunu "gratisGiftCard" elementine yaz
+* Değeri "Uygula" e eşit olan elementi bul ve tıkla
+* Element var mı kontrol et "gratisGiftCardPrice"
+# Hediye kartı kullanımı sonucu ücretin sifir olduğu kontrol edilir
+* "odenecekTutarOne" ara toplam "odenecekTutarTwo" sifira esit mi karsilastir
+
+# Gratis puan kullanılır
+* "Gratis Puan Kullanacağım" text degerine sahip elementin sayfada gorundugu kontrol edilir
+* Elementin yüklenmesini bekle "gratisGratisPointOpenBtn"
+* Elementine tıkla "gratisGratisPointOpenBtn"
+* "Bu Alışverişinizde Kullanılabilir Puanınız" text degerine sahip elementin sayfada gorundugu kontrol edilir
+* Elementine tıkla "gratisPointAddButton"
+
+# Gratis Puan kullanıldığı kontrol edilir
+* "salePriceOne" ana fiyat "salePriceTwo" kusurat al "odenecekTutarOne" ara toplam "odenecekTutarTwo" ile karsilastir
+
+# Satın alma aşamasına gidilir sepete geri dönülür ve uyarı kontrol edilir.
+* Elementine tıkla "continueBtn"
+* Elementine tıkla "addressBtn"
+* Elementine tıkla "gratisCampaignDetailsBack"
+* Elementine tıkla "anasayfaTab"
+* Ana sayfa sepet ikonuna tiklanir.
+* "gratisToastMessage" elementinin "Sepetiniz güncellendi. Lütfen promosyon kodu, hediye kartı ve Gratis puan alanlarını kontrol edin." textini içerdiği kontrol edilir
+* Elementine tıkla "popupOkayButton"
+
+# Kategorilere tıklanır sepete geri dönülür ve uyarı kontrol edilir.
+* Elementine tıkla "kategorilerTab"
+* "3" saniye bekle
+* Elementine tıkla "sepetBtn"
+* "3" saniye bekle
+* "gratisToastMessage" elementinin "Sepetiniz güncellendi. Lütfen promosyon kodu, hediye kartı ve Gratis puan alanlarını kontrol edin." textini içerdiği kontrol edilir
+* Elementine tıkla "popupOkayButton"

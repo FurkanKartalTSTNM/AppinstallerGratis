@@ -562,6 +562,35 @@ This is a concept file with following syntax for each concept.
 * "2" saniye bekle
 * "Hediye Kartı Geçersizdir." text degerine sahip elementin sayfada gorundugu kontrol edilir
 
+# Kampanyalarım menüsüne tıklanır.
+* Element var mı kontrol et "gratisMyCampaign"
+* Elementine tıkla "gratisMyCampaign"
 
+# Kampanyalar kontrol edilir.
+* Elementin yüklenmesini bekle "gratisCampaignDetailButton"
+* Element var mı kontrol et "gratisCampaignDetailButton"
+* Elementine tıkla "gratisCampaignDetailButton"
+//* "4" saniye bekle
+//* Element var mı kontrol et "gratisCampaignDetailHeader"
+* Elementine tıkla "gratisCampaignDetailsBack"
+* "2" saniye bekle
+
+* "5" kere aşağıya kaydır
+* Elementine tıkla "gratisJoinCampaign"
+* Element var mı kontrol et "gratisCampaignProducts"
+* Elementine tıkla "gratisCampaignDetailsBack"
+
+* "6" kere aşağıya kaydır
+* Elementine tıkla "gratisOldCampaignTab"
+* Elementine tıkla "gratisAllCampaignTab"
+* Elementine tıkla "gratisActiveCampaignTab"
+
+
+# Kampanyaya katıl butonuna tıklanır.
+* "gratisJoinCampaign" li elementi bulana kadar swipe et
+* Element var mı kontrol et "gratisJoinCampaign"
+* Elementine tıkla "gratisJoinCampaign"
+* "2" saniye bekle
+* "KAMPANYAYA KATILDINIZ" text degerine sahip elementin sayfada gorundugu kontrol edilir
 
 

@@ -422,3 +422,114 @@ tags:Gratis_Android
 * Hediye karti alani  bos iken Uygula butonuna tıklanır ve bu alaninin bos olduguna dair uyari goruntulenir.
 * Gratis Puan kullanacagim ekle alani acilir ve Gratis Puan kullanacagim alaninin bos geldigi goruntulenir.
 * Gratis Puan kullanacagim bos iken Uygula butonuna tıklanır ve bu alaninin bos olduguna dair uyari goruntulenir.
+
+
+Promo Code
+----------------------------------------
+tags:Gratis_Android_PromosyonKoduUygulama
+* Uygulama baslatilir.
+* Ana sayfa sepet ikonuna tiklanir.
+* Yeni sepet ikonu ile Gratis2 login olunur.
+* Sepet kontrol edilerek temizlenir.
+* Ana sayfaya geçilir.
+* Anasayfa urun kodu "10039453" yazilir, arama yapilir.
+* Ürün detay sayfasinda urun sepete eklenir.
+* Sepete git'e tıklanır.
+* Sepet kasa arkasi popup'i varsa kapatilir.
+* Promosyon Kodu alanina promosyon kodu yazılır
+* Indirim yapildigi kontrol edilir
+
+Staff Discount
+----------------------------------------
+tags:Gratis_Android_PersonelIndirimi
+* Uygulama baslatilir.
+* Ana sayfa sepet ikonuna tiklanir.
+* Yeni sepet ikonu ile Gratis2 login olunur.
+* Sepet kontrol edilerek temizlenir.
+* Ana sayfaya geçilir.
+* Anasayfa urun kodu "10039453" yazilir, arama yapilir.
+* Ürün detay sayfasinda urun sepete eklenir.
+* Sepete git'e tıklanır.
+* Sepet kasa arkasi popup'i varsa kapatilir.
+* Personel indirimi kullanılır
+* Indirim yapildigi kontrol edilir
+
+Gift Cart
+----------------------------------------
+tags:Gratis_Android_HediyeKarti
+* Uygulama baslatilir.
+* Ana sayfa sepet ikonuna tiklanir.
+* Yeni sepet ikonu ile Gratis2 login olunur.
+* Sepet kontrol edilerek temizlenir.
+* Ana sayfaya geçilir.
+* Anasayfa urun kodu "10039453" yazilir, arama yapilir.
+* Ürün detay sayfasinda urun sepete eklenir.
+* Sepete git'e tıklanır.
+* Sepet kasa arkasi popup'i varsa kapatilir.
+* Hediye karti uygulanir
+* Hediye kartı kullanımı sonucu ücretin sifir olduğu kontrol edilir
+
+Gratis Point
+----------------------------------------
+tags:Gratis_Android_GratisPuan
+* Uygulama baslatilir.
+* Ana sayfa sepet ikonuna tiklanir.
+* Yeni sepet ikonu ile Gratis2 login olunur.
+* Sepet kontrol edilerek temizlenir.
+* Ana sayfaya geçilir.
+* Anasayfa urun kodu "10010289" yazilir, arama yapilir.
+* Ürün detay sayfasinda urun sepete eklenir.
+* Sepete git'e tıklanır.
+* Sepet kasa arkasi popup'i varsa kapatilir.
+* Gratis puan kullanılır
+* Gratis Puan kullanıldığı kontrol edilir
+
+Gratis Point and Staff Discount
+----------------------------------------
+tags:Gratis_Android_GratisPuanVePersonelİndirimi
+* Uygulama baslatilir.
+* Ana sayfa sepet ikonuna tiklanir.
+* Yeni sepet ikonu ile Gratis2 login olunur.
+* Sepet kontrol edilerek temizlenir.
+* Ana sayfaya geçilir.
+* Anasayfa urun kodu "10010289" yazilir, arama yapilir.
+* Ürün detay sayfasinda urun sepete eklenir.
+* Sepete git'e tıklanır.
+* Sepet kasa arkasi popup'i varsa kapatilir.
+* Personel indirimi kullanılır
+* Indirim yapildigi kontrol edilir
+* "1" kere yukarı doğru kaydır
+* Gratis puan kullanılır
+* Gratis Puan kullanıldığı kontrol edilir
+
+Campaign Control from Basket
+----------------------------------------
+tags:Gratis_Android_SepetteKampanyaUyariKontrolü
+* Uygulama baslatilir.
+* Ana sayfa sepet ikonuna tiklanir.
+* Yeni sepet ikonu ile Gratis2 login olunur.
+* Sepet kontrol edilerek temizlenir.
+* Ana sayfaya geçilir.
+* Anasayfa urun kodu "10010289" yazilir, arama yapilir.
+* Ürün detay sayfasinda urun sepete eklenir.
+* Sepete git'e tıklanır.
+* Sepet kasa arkasi popup'i varsa kapatilir.
+* Gratis puan kullanılır
+* Gratis Puan kullanıldığı kontrol edilir
+* Satın alma aşamasına gidilir sepete geri dönülür ve uyarı kontrol edilir.
+
+Campaign Control from Category
+----------------------------------------
+tags:Gratis_Android_KategoriKampanyaUyariKontrolü
+* Uygulama baslatilir.
+* Ana sayfa sepet ikonuna tiklanir.
+* Yeni sepet ikonu ile Gratis2 login olunur.
+* Sepet kontrol edilerek temizlenir.
+* Ana sayfaya geçilir.
+* Anasayfa urun kodu "10010289" yazilir, arama yapilir.
+* Ürün detay sayfasinda urun sepete eklenir.
+* Sepete git'e tıklanır.
+* Sepet kasa arkasi popup'i varsa kapatilir.
+* Gratis puan kullanılır
+* Gratis Puan kullanıldığı kontrol edilir
+* Kategorilere tıklanır sepete geri dönülür ve uyarı kontrol edilir.

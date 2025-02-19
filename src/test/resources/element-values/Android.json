@@ -2284,78 +2284,78 @@
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisPromotionPrice",
+    "androidValue": "com.gratis.android:id/tvPromotionPrice",
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisGiftCardPrice",
+    "androidValue": "com.gratis.android:id/tvGiftCardPrice",
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisPoint",
+    "androidValue": "//androidx.appcompat.widget.LinearLayoutCompat/androidx.appcompat.widget.LinearLayoutCompat[4]/androidx.appcompat.widget.LinearLayoutCompat[2]/androidx.appcompat.widget.LinearLayoutCompat/android.widget.TextView[1]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "gratisPointAddButton",
+    "androidValue": "com.gratis.android:id/addGratisPointBtn",
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisStaffDiscountAddButton",
+    "androidValue": "com.gratis.android:id/addStaffDiscountBtn",
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisMyCampaign",
+    "androidValue": "com.gratis.android:id/item_my_campaigns_root",
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisJoinCampaign",
+    "androidValue": "com.gratis.android:id/btnJoinCampaign",
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisCampaignDetailButton",
+    "androidValue": "com.gratis.android:id/btnCampaignDetail",
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisCampaignDetailHeader",
+    "androidValue": "com.gratis.android:id/imgLeftArrow",
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisCampaignDetailsBack",
+    "androidValue": "com.gratis.android:id/btnBack",
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisActiveCampaignTab",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/itemButton'])[1]",
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisOldCampaignTab",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/itemButton'])[2]",
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisAllCampaignTab",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/itemButton'])[2]",
     "androidType": "id"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
-    "androidType": "id"
+    "key": "gratisCampaignProducts",
+    "androidValue": "(//*[@resource-id='com.gratis.android:id/product_desc_txt'])[1]",
+    "androidType": "xpath"
   },
   {
-    "key": "xxxx",
-    "androidValue": "xxxx",
-    "androidType": "id"
-  },
-  {
-    "key": "xxxx",
-    "androidValue": "xxxx",
+    "key": "gratisToastMessage",
+    "androidValue": "android:id/message",
     "androidType": "id"
   },
   {
