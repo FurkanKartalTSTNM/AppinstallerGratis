@@ -45,6 +45,7 @@ tags:Gratis_IOS_GratisCard
 * Yeni login sayfasina gecilir
 * Yeni login olup Gratis Kartim sayfasina gecilir
 * Diger'e tiklanir diger sayfasinin acildigi gorulur
+* Profil'e tiklanir profilim sayfasinin acildigi gorulur
 * Non login Gratis Kartim sayfasina gecilir
 * Login durumda Gratis Kart sayfasi kontrol edilir
 //* Non login durumda Gratis Kart sayfasi kontrol edilir silecez

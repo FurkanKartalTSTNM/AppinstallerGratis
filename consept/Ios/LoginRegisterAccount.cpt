@@ -619,6 +619,7 @@
 //* "ProductNameTwo" name li elementi bul ve değerini "ürün adı" olarak sakla
 //* "ProductNameTwo" li elementi bul ve değerini "ürün adı" olarak sakla
 * "FavBtnTwo" elementi bulunana kadar en fazla "15" saniye kadar bekle
+* "ProductNameTwo" elementinin hizasından sağdan sola "6" kere kaydır
 * Elementine tıkla "FavBtnTwo"
 * "2" saniye bekle
 //* Element var mı kontrol et "AddFavoritePopup"

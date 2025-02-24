@@ -444,6 +444,7 @@
 
 # En Çok Satanlar ürünlerine tıklanır
 * "ProductNameTwo"li elementi bulana kadar "1" kere swipe yap ve elementi bul
+* "ProductNameTwo" elementinin hizasından sağdan sola "6" kere kaydır
 * Elementin yüklenmesini bekle "ProductNameTwo"
 * Elementine tıkla "ProductNameTwo"
 * "2" saniye bekle

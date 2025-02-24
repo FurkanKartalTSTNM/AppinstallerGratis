@@ -112,7 +112,7 @@ tags:Gratis_IOS_UrunDetayFavori
 * Yeni Gratis4 ile login olunur
 * Kategoriler sayfasina gecilir
 * "Ev & Yaşam" isimli kategori seçilir
-* Alt kategorilerden biri "Dekorasyon", "Aydınlatma" seçilir
+* Alt kategorilerden biri "Dekorasyon", "Dekoratif Aksesuar" seçilir
 * Urun detay sayfasına geçilir
 * Ürün detay sayfasında ürün favori butonuna tıklanır
 * Urun favorilere eklenir
@@ -132,7 +132,7 @@ tags:Gratis_IOS_UrunDetayNonLoginFavori
 * Uygulama baslatilir
 * Kategoriler sayfasina gecilir
 * "Ev & Yaşam" isimli kategori seçilir
-* Alt kategorilerden biri "Dekorasyon", "Aydınlatma" seçilir
+* Alt kategorilerden biri "Dekorasyon", "Dekoratif Aksesuar" seçilir
 * Urun detay sayfasına geçilir
 * Ürün detay sayfasında ürün favori butonuna tıklanır
 * Yeni favori ikonu ile Gratis0 login olunur
@@ -145,7 +145,7 @@ tags:Gratis_IOS_UrunDetayNonLoginFavoriListesi
 * Uygulama baslatilir
 * Kategoriler sayfasina gecilir
 * "Ev & Yaşam" isimli kategori seçilir
-* Alt kategorilerden biri "Dekorasyon", "Aydınlatma" seçilir
+* Alt kategorilerden biri "Dekorasyon", "Dekoratif Aksesuar" seçilir
 * Urun detay sayfasına geçilir
 * Ürün detay sayfasında ürün favori butonuna tıklanır
 * Yeni favori ikonu ile Gratis2 login olunur
@@ -176,7 +176,7 @@ tags:Gratis_IOS_UrunDetayAltBarYorum
 * Uygulama baslatilir
 * Search ikonuna tiklanir
 * Arama sayfasinin acildigi gorulur
-* Urun adi "10202014" yazilir, arama yapilir
+* Urun adi "10103017" yazilir, arama yapilir
 * Ürün detay yorumlar alanina gecilir
 * Yeni yorum yap ikonu ile Gratis0 login olunur
 * Yorum penceresi kapatilir ve anasayfaya gecilir

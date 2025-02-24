@@ -4,6 +4,7 @@
 * Elementin yüklenmesini bekle "KampanyaSec"
 * "1" kere aşağıya kaydır
 //* Element var mı kontrol et "GratisCardPrice"
+* "ProductNameTwo" elementinin hizasından sağdan sola "6" kere kaydır
 * "ProductAddButton" elementi bulunana kadar en fazla "15" saniye kadar bekle
 * Elementine tıkla "ProductAddButton"
 * "AddedToCartSuccessfulPopupIos" elementi bulunana kadar en fazla "15" saniye kadar bekle
@@ -29,6 +30,8 @@
 * Elementin yüklenmesini bekle "AnasayfaTab"
 * Elementine tıkla "AnasayfaTab"
 * Elementin yüklenmesini bekle "KampanyaSec"
+* "1" kere aşağıya kaydır
+* "ProductNameTwo" elementinin hizasından sağdan sola "6" kere kaydır
 * "1" kere aşağıya kaydır
 * "ProductAddButton" elementi bulunana kadar en fazla "15" saniye kadar bekle
 * Elementine tıkla "ProductAddButton"
