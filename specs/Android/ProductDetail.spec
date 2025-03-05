@@ -1,4 +1,4 @@
-Specification Heading
+Product Detail
 =====================
 Created by testinium on 1.08.2023
 

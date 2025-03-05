@@ -3302,7 +3302,18 @@ public class StepImpl extends HookImpl {
         assertEquals(expectedAmount,araToplamFiyatı,"Hesaplanan tutar beklenen tutara eşit değil!");
 
     }
+    @Step({"<key> elementi görünürse <key1> elementine tikla ardindan <key2> elementine tikla"})
+    public void elementisDisplayedAndClick(String key,String key1,String key2) throws InterruptedException {
+        if(doesElementExistByKey(key,10)){
+            swipe(2);
+        clickByKey(key1);
+        waitUntilElementExist(key2,10);
+        clickByKey(key2);
+
+    }}
 }
+
+
 
 
 

@@ -1,4 +1,4 @@
-Specification Heading
+Login Register
 =====================
 Created by testinium on 23.05.2023
 
@@ -121,7 +121,7 @@ tags:Gratis_Android_GratisCardBagla
 * Yeni login sayfasina gecilir.
 * Yeni Gratis2 ile login olunur.
 * Diger tabina tiklanir.
-//* Profil'e tiklanir profilim sayfasinin acildigi gorulur.
+* Profil'e tiklanir profilim sayfasinin acildigi gorulur.
 * Gratis Kartim sayfasina gecilir.
 * Profilim Gratis Card baglama islemi yapilir.
 //* Gratis Card baglama islemi yapilir.

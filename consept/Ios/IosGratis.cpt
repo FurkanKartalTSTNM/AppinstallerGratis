@@ -246,6 +246,11 @@
 //* "cikisYapBtnn" değerini sayfa üzerinde olmadıgını kontrol et
 * "3" saniye bekle
 
+# Eger loginse cikis yap
+* Elementine tıkla "digerSekmesi"
+* "profilim" elementi görünürse "cikisYapBtnn" elementine tikla ardindan "cikisYapPopUpCikisBtn" elementine tikla
+* "2" kere yukarı doğru kaydır
+* Elementine tıkla "AnasayfaTab"
 
 
 

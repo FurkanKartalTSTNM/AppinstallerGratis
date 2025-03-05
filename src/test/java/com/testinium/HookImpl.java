@@ -34,7 +34,7 @@ public class HookImpl {
     protected static AppiumDriver<MobileElement> appiumDriver;
     static EventFiringWebDriver eventDriver;
     protected static FluentWait<AppiumDriver<MobileElement>> appiumFluentWait;
-    protected boolean localAndroid=false;
+    protected boolean localAndroid=true;
     public static boolean isDeviceAnd=true;
     protected static Selector selector ;
 
@@ -52,7 +52,7 @@ public class HookImpl {
                 desiredCapabilities.setCapability("skipDeviceInitialization", true);
                 desiredCapabilities.setCapability("skipServerInstallation", true);
                 desiredCapabilities.setCapability("ignoreUnimportantViews", true);
-                desiredCapabilities.setCapability("waitForIdleTimeout",150);
+                desiredCapabilities.setCapability("waitForIdleTimeout",100);
                 desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "android");
                 //desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "device");
                 desiredCapabilities
@@ -66,7 +66,7 @@ public class HookImpl {
                         .setCapability(MobileCapabilityType.NO_RESET, false);
                 desiredCapabilities
                         .setCapability(MobileCapabilityType.FULL_RESET, false);
-                desiredCapabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 3000);
+                desiredCapabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 300);
                 desiredCapabilities.setCapability("unicodeKeyboard", false);
                 //desiredCapabilities.setCapability("resetKeyboard", true);
                 URL url = new URL("http://127.0.0.1:4723/wd/hub");
@@ -83,7 +83,8 @@ public class HookImpl {
                         .setCapability(IOSMobileCapabilityType.BUNDLE_ID, "com.pharos.Gratis");
                 //setCapability(IOSMobileCapabilityType.BUNDLE_ID, "com.pharos.gratis.uat");
                 desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "devtestinium iPhone X");
-                desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "13.3.1");
+
+                desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "16.7.10");
                 desiredCapabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 300);
 
                 URL url = new URL("http://127.0.0.1:4723/wd/hub");
@@ -115,7 +116,7 @@ public class HookImpl {
                 capabilities.setCapability(AndroidMobileCapabilityType.AUTO_GRANT_PERMISSIONS, true);
                 capabilities.setCapability("unicodeKeyboard", true);
                 capabilities.setCapability("resetKeyboard", true);
-                capabilities.setCapability("appium:settings[waitForIdleTimeout]",500);
+                capabilities.setCapability("appium:settings[waitForIdleTimeout]",300);
 
                 capabilities.setCapability("appium:[skipDeviceInitialization]",true);
                 capabilities.setCapability("appium:[skipServerInstallation]",true);
